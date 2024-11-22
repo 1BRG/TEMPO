@@ -1,0 +1,466 @@
+/* @font-face {
+    font-family: 'YourFontName'; /*a name to be used later
+    src: url('http://domain.example/fonts/font.ttf'); /*URL to font*/
+
+header {
+    padding: 0.5em;
+    /* border-width: 3px;
+     border-style: solid;
+     border-color: black; */
+    /* background-color: #238ffb; */
+    background-color: #58870c;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tempo {
+    color: #FF5F1F;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    /* font-size: 1.1em; */
+    font-weight: bold;
+}
+
+.nav_bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav_bar .titlu {
+    /* margin: 0; */
+    /* margin-left: 50px; */
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    /* border-width: 3px;
+     border-style: solid;
+     border-color: black */
+}
+
+.nav_bar .dreapta {
+    display: flex;
+    align-items: center;
+}
+
+.style {
+    background-color: purple;
+}
+
+.nav_bar .dreapta .icon {
+    color: white;
+    height: 1.5em;
+    /* align-items: center; */
+    width: 1.5em;
+    margin-right: 12px;
+
+}
+
+#iconi {
+    color: white;
+    height: 1.5em;
+    /* align-items: center; */
+    width: 1.5em;
+    margin-right: 12px;
+
+}
+
+.nav_bar .dreapta .profil {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.abcd .nav_bar .dreapta .buton {
+    /* height: 1em; */
+    /* width: 1em; */
+    /* margin-right: 50px; */
+
+    z-index: 11000;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+
+#meniu {
+    position: fixed;
+    display: none;
+    /* padding:2px; */
+    width: 13em;
+    height: 9.5em;
+    /* display: flex; */
+    margin-top: 0.5em;
+    right: 0.5em;
+    background-color: #7bb61d;
+    border: 5px solid white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* transition: all 5s ease; */
+
+}
+
+
+
+.hh {
+    text-align: center;
+}
+
+.a1234 {
+    color: black;
+    font-weight: bold;
+}
+
+#meniu .activitati ul {
+    padding: 0;
+    /* margin-top: 1em; */
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    /* padding: auto; */
+    list-style: none;
+}
+
+#meniu .activitati li {
+    margin-top: 0.5em;
+}
+
+.menu {
+    margin-top: 20px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    /* margin-left:0;
+    width: 200px; */
+    /* border: red 2px solid; */
+}
+
+.abcd {
+    box-sizing: border-box;
+    position: relative;
+    height: 21em;
+    margin: auto;
+    max-width: 70em;
+    width: 100%;
+}
+
+
+/* .activitati
+{
+    justify-content: center;
+} */
+.tip1
+{
+    background-color: #4b7010;
+    border: 2px solid white; 
+}
+.activitati .tip {
+    /* background-color: #4b7010;
+    border: 2px solid white; */
+    padding: 0.4em 1em;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    color: white;
+    font-size: 1em;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    /* transition: all 0.3s ease; */
+    /* font-weight: bold; */
+
+}
+
+.activitati .tip:hover {
+    background-color: rgb(39, 102, 41);
+}
+
+.activitati ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* padding: auto; */
+    list-style: none;
+}
+
+.activitati ul li {
+
+    /* margin-right: 2em; */
+}
+
+.activitati .icon {
+    color: white;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 12px;
+    /* height: 1em; */
+    /* width: 1em; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* margin-right: 12px; */
+    /* align-items: center; */
+    /* display: inline-flex;  */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.abcd .cefaci {
+    margin-top: 60px;
+    color: white;
+    font-size: calc(0.0625rem * 32);
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+}
+
+.abcd .doi {
+    margin-top: -2em;
+    color: white;
+    font-size: 1em;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+
+}
+
+
+.search {
+    max-width: 70em;
+    /* border: 2px solid black; */
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    width: 70em;
+    height: 3em;
+    background-color: #f95f34;
+    border: 5px solid #f95f34;
+    border-radius: 20px;
+    /* justify-content: center; */
+    margin-top: 2em;
+    position: relative;
+    /* display: inline-block; */
+
+}
+
+.search .descriere {
+    /* margin-left: -1em; */
+    background-color: white;
+    border: 5px solid #f95f34;
+    border-radius: 17px;
+    height: 3em;
+    width: 51em;
+    display: flex;
+    align-items: center;
+}
+
+
+.search .perioada {
+    /* margin-left: -0.2em;
+    margin-right: -1em; */
+    background-color: white;
+    border: 5px solid #f95f34;
+    border-radius: 17px;
+    height: 3em;
+    width: 21em;
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    border: none;
+    outline: none;
+    width: 100%;
+    text-wrap: wrap;
+    /* color: black; */
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-size: 80%;
+}
+
+.perioada p {
+    color: grey;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.search .tab {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 10em;
+    height: 2em;
+    border: 0;
+    /* border-color: transparent; */
+}
+
+.search .icon {
+    color: black;
+    height: 1.5em;
+    margin-left: 1em;
+    /* align-items: center; */
+    width: 1.5em;
+    margin-right: 12px;
+}
+.recomandrri {
+    box-sizing: border-box;
+    position: relative;
+    height: 21em;
+    margin: auto;
+    max-width: 70em;
+    width: 100%;
+}
+.p2
+{
+    padding: 0.5em;
+    /* border-width: 3px;
+     border-style: solid;
+     border-color: black; */
+    /* background-color: #238ffb; */
+    background-color: white;
+}
+.recomandari
+{
+    /* padding: ; */
+    box-sizing: border-box;
+    position: relative;
+    /* width: 100%; */
+    max-width: 70em;
+    margin:auto;
+    padding: 3em 0em 0.5em 0.5em;
+    /* display: grid; */
+}
+
+.txt1
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.bordura
+{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px 2px rgba(0, 0, 0, 0.12), 0 5px 6px -3px rgba(0, 0, 0, 0.2);
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    font-family: "Kanit", sans-serif;
+}
+.box .icon
+{
+    height: 1.5em;
+    width: 1.5em;
+}
+.box .locatie
+{
+    /* text-decoration: none; */
+    margin-top: 5px;
+    display: flex;
+    color: grey;
+    font-weight: 300;
+    font-size: 1em;
+    align-items:center;
+
+}
+.box .title
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-ev;
+
+}
+.box .title .text
+{
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+.box .title .rand1
+{
+    justify-content: space-between;
+    display: flex;
+    align-items: end;
+}
+.box .rest .descriere .text
+{
+    /* margin-left: 10px; */
+    width: 100%;
+    font-weight:500;
+    font-size: 1em;
+
+}
+.box .imagine .src1
+{
+    height: 10em;
+    width: 14em;
+    border-radius: 20px;
+    position: relative;
+}
+.content
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px
+}
+/* .search .b4 { */
+/* display: block; */
+/* margin:auto; */
+/* background-color: white; */
+/* border-color: azure; */
+/* border-width: 2px; */
+/* border-radius: 50px; */
+/* border: 2px solid black; */
+/* font-size: 2em; */
+/* padding: 0.4em; */
+/* cursor: pointer; */
+/* transition: all 0.3s ease; */
+/* } */
+
+/* .search .tab */
+/* { */
+/* position: absolute; */
+/* top: 0; */
+/* left: 0;
+    width: 0;  */
+/* opacity: 0; */
+/* padding: 10px; */
+/* font-size: 18px; */
+/* border: 1px solid #3498db; */
+/* border-radius: 50%; */
+/* outline: none; */
+/* background-color: #fff; */
+
+/* } */
+/* .search .b4:hover */
+/* { */
+/* opacity: 0; */
+/* width: 200px; */
+/* } */

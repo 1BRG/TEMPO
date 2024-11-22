@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo.ro | Planuieste-ti ziua</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="head1">
+        <div class="abcd">
+            <nav>
+                <div class="nav_bar">
+                    <div class="titlu">
+                        <h1> <a href="index.html" class="titlu">Tempo</a></h1>
+                    </div>
+                    <div class="dreapta">
+                        <!-- <img src="profile-user-account-svgrepo-com.svg" width="50px"> -->
+                        <a href="profil.html" class="profil">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
+                                <path fill="currentColor" fill-rule="evenodd"
+                                    d="M12 12c4.963 0 9 4.038 9 9l-1 1H4l-1-1c0-4.962 4.037-9 9-9zm0 2c-3.52 0-6.442 2.613-6.929 6H18.93c-.487-3.387-3.409-6-6.93-6zm0-12c2.481 0 4.5 2.019 4.5 4.5 0 2.482-2.019 4.5-4.5 4.5a4.505 4.505 0 0 1-4.5-4.5C7.5 4.019 9.519 2 12 2zm0 2a2.503 2.503 0 0 0-2.5 2.5C9.5 7.878 10.621 9 12 9s2.5-1.122 2.5-2.5S13.379 4 12 4z">
+                                </path>
+                            </svg>
+                            Profil
+                        </a>
+                        <div class="dropdown">
+                            <button id="toggleMenu" class="buton">
+                                <svg xmlns="http://www.w3.org/2000/svg" id="iconi" viewBox="0 0 24 24">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M2.25 18.753h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5m0-6h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5m0-6h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5">
+                                    </path>
+                                </svg>
+                            </button>
+                            <div class="ddmenu">
+                                <a href="contact.html">Contact us</a>
+                                <a href="despre.html">Despre</a>
+                                <!-- <a href="#item3">Item 3</a> -->
+                                <!-- <a href="#item4">Item 4</a> -->
+                            </div>
+                        </div>
+                        <div id="meniu">
+                            <nav class="activitati">
+                                <ul>
+                                    <li><a href="cultural.html" class="tip">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M16.719 19.7519L16.0785 14.6279C15.8908 13.1266 14.6146 12 13.1017 12H12H10.8983C9.38538 12 8.10917 13.1266 7.92151 14.6279L7.28101 19.7519C7.1318 20.9456 8.06257 22 9.26556 22H12H14.7344C15.9374 22 16.8682 20.9456 16.719 19.7519Z"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <circle cx="12" cy="5" r="3" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <circle cx="4" cy="9" r="2" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <circle cx="20" cy="9" r="2" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <path
+                                                    d="M4 14H3.69425C2.71658 14 1.8822 14.7068 1.72147 15.6712L1.38813 17.6712C1.18496 18.8903 2.12504 20 3.36092 20H7"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path
+                                                    d="M20 14H20.3057C21.2834 14 22.1178 14.7068 22.2785 15.6712L22.6119 17.6712C22.815 18.8903 21.8751 20 20.6392 20C19.4775 20 18.0952 20 17 20"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+
+                                            </svg>
+                                            <span class="a1234"> </span>
+                                        </a>
+                                    </li>
+                                    <li><a href="despre.html" class="tip">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M16.719 19.7519L16.0785 14.6279C15.8908 13.1266 14.6146 12 13.1017 12H12H10.8983C9.38538 12 8.10917 13.1266 7.92151 14.6279L7.28101 19.7519C7.1318 20.9456 8.06257 22 9.26556 22H12H14.7344C15.9374 22 16.8682 20.9456 16.719 19.7519Z"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <circle cx="12" cy="5" r="3" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <circle cx="4" cy="9" r="2" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <circle cx="20" cy="9" r="2" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <path
+                                                    d="M4 14H3.69425C2.71658 14 1.8822 14.7068 1.72147 15.6712L1.38813 17.6712C1.18496 18.8903 2.12504 20 3.36092 20H7"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path
+                                                    d="M20 14H20.3057C21.2834 14 22.1178 14.7068 22.2785 15.6712L22.6119 17.6712C22.815 18.8903 21.8751 20 20.6392 20C19.4775 20 18.0952 20 17 20"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+
+                                            </svg>
+                                            <span class="a1234">Despre</span></a>
+                                    </li>
+                                    <li><a href="contact.html" class="tip">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M16.719 19.7519L16.0785 14.6279C15.8908 13.1266 14.6146 12 13.1017 12H12H10.8983C9.38538 12 8.10917 13.1266 7.92151 14.6279L7.28101 19.7519C7.1318 20.9456 8.06257 22 9.26556 22H12H14.7344C15.9374 22 16.8682 20.9456 16.719 19.7519Z"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <circle cx="12" cy="5" r="3" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <circle cx="4" cy="9" r="2" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <circle cx="20" cy="9" r="2" fill=transparent stroke="black"
+                                                    stroke-width="2">
+                                                </circle>
+                                                <path
+                                                    d="M4 14H3.69425C2.71658 14 1.8822 14.7068 1.72147 15.6712L1.38813 17.6712C1.18496 18.8903 2.12504 20 3.36092 20H7"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path
+                                                    d="M20 14H20.3057C21.2834 14 22.1178 14.7068 22.2785 15.6712L22.6119 17.6712C22.815 18.8903 21.8751 20 20.6392 20C19.4775 20 18.0952 20 17 20"
+                                                    stroke="black" fill=transparent stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+
+                                            </svg>
+                                            <span class="a1234"> Contact us </span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="activitati">
+                <div>
+                    <ul>
+                        <li><a href="cultural.html" class="tip1 tip">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 48 48">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M24.982422 2 A 1.0001 1.0001 0 0 0 24.535156 2.1132812L3.5351562 13.113281 A 1.0001 1.0001 0 0 0 3 14L3 17 A 1.0001 1.0001 0 0 0 4 18L5 18L5 19.400391C5 20.612292 5.8642937 21.645028 7 21.921875L7 40.011719L4.0996094 40.011719L4.265625 40.025391C3.0336039 39.818002 2 40.874696 2 42.03125L2 44.779297C2 45.959462 2.9340538 47 4.0996094 47L45.800781 47C46.966337 47 47.900391 46.037413 47.900391 44.880859L47.900391 42.132812C47.900391 40.976259 46.966337 40.011719 45.800781 40.011719L43 40.011719L43 21.921875C44.135706 21.645028 45 20.612292 45 19.400391L45 18L46 18 A 1.0001 1.0001 0 0 0 47 17L47 14 A 1.0001 1.0001 0 0 0 46.464844 13.113281L25.464844 2.1132812 A 1.0001 1.0001 0 0 0 24.982422 2 z M 25 4.1308594L45 14.605469L45 16L44.167969 16 A 1.0001 1.0001 0 0 0 43.841797 16L34.154297 16 A 1.0001 1.0001 0 0 0 33.984375 15.986328 A 1.0001 1.0001 0 0 0 33.839844 16L30.167969 16 A 1.0001 1.0001 0 0 0 29.841797 16L20.154297 16 A 1.0001 1.0001 0 0 0 19.984375 15.986328 A 1.0001 1.0001 0 0 0 19.839844 16L16.167969 16 A 1.0001 1.0001 0 0 0 15.841797 16L6.1542969 16 A 1.0001 1.0001 0 0 0 5.984375 15.986328 A 1.0001 1.0001 0 0 0 5.8398438 16L5 16L5 14.605469L25 4.1308594 z M 7 18L15 18L15 19.400391C15 19.781872 14.781872 20 14.400391 20L7.5996094 20C7.2181279 20 7 19.781872 7 19.400391L7 18 z M 17 18L19 18L19 19.400391C19 20.612292 19.864294 21.645028 21 21.921875L21 40.011719L15 40.011719L15 21.921875C16.135706 21.645028 17 20.612292 17 19.400391L17 18 z M 21 18L29 18L29 19.400391C29 19.781872 28.781872 20 28.400391 20L21.599609 20C21.218128 20 21 19.781872 21 19.400391L21 18 z M 31 18L33 18L33 19.400391C33 20.612292 33.864294 21.645028 35 21.921875L35 40.011719L29 40.011719L29 21.921875C30.135706 21.645028 31 20.612292 31 19.400391L31 18 z M 35 18L43 18L43 19.400391C43 19.781872 42.781872 20 42.400391 20L35.599609 20C35.218128 20 35 19.781872 35 19.400391L35 18 z M 9 22L13 22L13 40L9 40L9 22 z M 23 22L27 22L27 40L23 40L23 22 z M 37 22L41 22L41 40L37 40L37 22 z M 3.984375 42.003906 A 1.0001 1.0001 0 0 0 4.0996094 42.011719L45.800781 42.011719C45.835221 42.011719 45.900391 42.067369 45.900391 42.132812L45.900391 44.880859C45.900391 44.946308 45.835226 45 45.800781 45L4.0996094 45C4.0651649 45 4 45.023132 4 44.779297L4 42.03125C4 42.008135 3.9913337 42.007741 3.984375 42.003906 z">
+                                    </path>
+                                </svg>
+                                <span>Cultural</span>
+                            </a>
+                        </li>
+                        <li><a href="natura.html" class="tip">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 512 512">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M440.781,203.438c1.188-6.375,1.781-12.781,1.781-19.125c0-45.875-29.094-85.984-71.813-100.625C354.859,33.969,308.953,0,256,0s-98.875,33.969-114.75,83.688c-42.734,14.625-71.813,54.75-71.813,100.625c0,6.344,0.594,12.75,1.766,19.125c-24.813,22.813-38.844,54.547-38.844,88.531c0,66.516,54.109,120.625,120.625,120.625c13.219,0,26.125-2.125,38.531-6.313c14.422,10.219,31.078,16.828,48.484,19.359V512h8h16h8v-86.359c17.406-2.531,34.063-9.141,48.484-19.359c12.391,4.188,25.313,6.313,38.531,6.313c66.516,0,120.625-54.109,120.625-120.625C479.641,257.984,465.594,226.25,440.781,203.438z M359.016,380.594c-12.094,0-23.828-2.406-34.922-7.156L315,369.531l-7.563,6.406c-12.313,10.438-27.516,16.844-43.438,18.469v-41.875l62.547-71.469L314.5,270.531L264,328.25v-58.938l50.438-57.656l-12.047-10.531L264,245v-90.344h-16v90.359l-38.406-43.891l-12.047,10.531L248,269.313v58.938l-50.5-57.719l-12.047,10.531L248,352.531v41.875c-15.938-1.625-31.125-8.031-43.453-18.469L197,369.531l-9.109,3.906c-11.078,4.75-22.828,7.156-34.906,7.156c-48.875,0-88.625-39.75-88.625-88.625c0-27.516,12.563-53.031,34.453-70l8.563-6.656l-2.984-10.406c-1.969-6.844-2.953-13.781-2.953-20.594c0-34.344,23.297-64.063,56.656-72.266l9.5-2.344l2.25-9.516C179.344,60.031,214.766,32,256,32s76.656,28.031,86.141,68.188l2.25,9.516l9.5,2.344c33.359,8.203,56.672,37.922,56.672,72.266c0,6.813-1,13.75-2.969,20.594l-2.984,10.406l8.563,6.656c21.906,16.969,34.469,42.484,34.469,70C447.641,340.844,407.875,380.594,359.016,380.594z">
+                                    </path>
+                                </svg>
+                                Natura</a>
+                        </li>
+                        <li><a href="sport.html" class="tip">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 122 122">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M61.44,0c16.97,0,32.33,6.88,43.44,18c11.12,11.12,18,26.48,18,43.44c0,16.97-6.88,32.33-18,43.44 c-11.12,11.12-26.48,18-43.44,18S29.11,116,18,104.88C6.88,93.77,0,78.41,0,61.44C0,44.47,6.88,29.11,18,18 C29.11,6.88,44.47,0,61.44,0L61.44,0z M76.85,117.08L76.73,117l6.89-23.09L69.41,78.15L52.66,78L39.38,94.62l6.66,22.32l-0.15,0.1 c4.95,1.38,10.16,2.12,15.55,2.12C66.78,119.16,71.95,118.44,76.85,117.08L76.85,117.08z M12.22,91.61l24.34,0.12L49.28,75.8 l-5.26-16.12l-21.42-9.3L3.78,64.08C4.23,74.14,7.26,83.53,12.22,91.61L12.22,91.61z M16.77,24.88l7.4,22.14l19.98,8.68 l15.44-11.97V20.94L40.51,7.63c-7.52,2.93-14.28,7.39-19.89,13C19.27,21.98,17.98,23.4,16.77,24.88L16.77,24.88z M81.7,7.37 L63.3,20.77V43.7L77.8,54.91l20.81-8.92l7.18-21.49c-1.12-1.35-2.3-2.64-3.54-3.88C96.48,14.85,89.49,10.29,81.7,7.37L81.7,7.37z M119.09,64.36l-0.02,0.01L99.09,49.82l-19.81,8.49l-6.08,18.03l13.73,15.23c0.06,0.06,0.09,0.13,0.11,0.21l23.6-0.11 C115.56,83.65,118.59,74.34,119.09,64.36L119.09,64.36">
+                                    </path>
+                                </svg>
+                                Sport</a>
+                        </li>
+                        <li><a href="evenimente.html" class="tip">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M16.719 19.7519L16.0785 14.6279C15.8908 13.1266 14.6146 12 13.1017 12H12H10.8983C9.38538 12 8.10917 13.1266 7.92151 14.6279L7.28101 19.7519C7.1318 20.9456 8.06257 22 9.26556 22H12H14.7344C15.9374 22 16.8682 20.9456 16.719 19.7519Z"
+                                        stroke="#FFFFFF" fill=transparent stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <circle cx="12" cy="5" r="3" fill=transparent stroke="#FFFFFF" stroke-width="2">
+                                    </circle>
+                                    <circle cx="4" cy="9" r="2" fill=transparent stroke="#FFFFFF" stroke-width="2">
+                                    </circle>
+                                    <circle cx="20" cy="9" r="2" fill=transparent stroke="#FFFFFF" stroke-width="2">
+                                    </circle>
+                                    <path
+                                        d="M4 14H3.69425C2.71658 14 1.8822 14.7068 1.72147 15.6712L1.38813 17.6712C1.18496 18.8903 2.12504 20 3.36092 20H7"
+                                        stroke="#FFFFFF" fill=transparent stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path
+                                        d="M20 14H20.3057C21.2834 14 22.1178 14.7068 22.2785 15.6712L22.6119 17.6712C22.815 18.8903 21.8751 20 20.6392 20C19.4775 20 18.0952 20 17 20"
+                                        stroke="#FFFFFF" fill=transparent stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+
+                                </svg>
+                                Evenimente</a>
+                        </li>
+                        <li><a href="familie.html" class="tip">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 500 500"
+                                    xml:space="preserve" stroke="#FFFFFF" stroke-width="10">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M488.609,326.324c-0.765-1.295-2.156-2.09-3.66-2.09h-46.556c-1.402,0-2.715,0.691-3.507,1.849 c-8.143,11.892-17.294,22.874-27.289,32.87l-41.37-180.799c-0.013-0.058-0.027-0.115-0.043-0.172 c-5.994-21.938-5.605-36.062,1.124-40.848c10.82-7.691,38.313,7.762,47.091,13.782c0.037,0.025,0.075,0.051,0.113,0.075 c18.373,11.769,42.9,6.392,54.672-11.982c11.764-18.371,6.387-42.893-11.986-54.665l-56.762-36.352l18.717-25.597 c0.873-1.194,1.063-2.757,0.5-4.125c-0.563-1.368-1.796-2.346-3.257-2.58c-2.345-0.375-57.962-8.824-101.645,25.836 c-28.396,22.532-44.831,57.899-48.881,105.168H124.107c-0.843,0.011-20.885,0.402-41.69,12.993 c-19.181,11.608-42.556,36.155-44.985,87.177c-0.056,1.161,0.367,2.294,1.169,3.135c0.803,0.842,1.914,1.317,3.076,1.317h36.248 c2.295,0,4.176-1.822,4.248-4.116c0.02-0.623,2.19-58.926,30.457-65.365l-0.682,3.624c-0.001,0.004-0.001,0.008-0.002,0.011 L79.68,356.983c-9.243-9.469-17.752-19.778-25.367-30.899c-0.792-1.157-2.104-1.849-3.507-1.849H4.25 c-1.504,0-2.895,0.795-3.66,2.09c-0.765,1.296-0.787,2.898-0.061,4.215c49.1,88.908,142.622,144.14,244.07,144.14 c101.449,0,194.972-55.231,244.07-144.14C489.397,329.223,489.374,327.62,488.609,326.324z M73.91,242.818H46.192 c2.632-35.461,16.179-60.903,40.304-75.661c18.852-11.531,37.538-11.958,37.664-11.961h145.643c2.231,0,4.083-1.727,4.239-3.952 c3.281-46.734,18.733-81.391,45.928-103.005c31.896-25.354,71.871-25.855,87.924-24.845l-16.987,23.231 c-0.692,0.947-0.963,2.138-0.747,3.29c0.216,1.153,0.898,2.165,1.886,2.798l60.568,38.789c14.428,9.244,18.65,28.499,9.414,42.923 c-9.232,14.409-28.456,18.638-42.876,9.444c-4.241-2.905-39.238-26.123-56.764-13.665c-10.171,7.228-11.618,23.563-4.426,49.933 l42.48,185.645c-7.346,6.742-15.091,12.984-23.193,18.688c-1.15-35.074-14.576-64.594-39.023-85.597 c-23.648-20.318-56.898-31.508-93.625-31.508s-69.977,11.189-93.625,31.508c-24.447,21.004-37.873,50.523-39.023,85.597 c-8.756-6.163-17.104-12.942-24.971-20.315l21.505-114.311c0.37,0.105,0.753,0.18,1.157,0.18h43.527c2.348,0,4.25-1.902,4.25-4.25 c0-2.348-1.902-4.25-4.25-4.25h-43.119l4.486-23.85c0.487,0.194,1.017,0.309,1.573,0.309h74.12c2.348,0,4.25-1.902,4.25-4.25 c0-2.348-1.902-4.25-4.25-4.25h-74.12c-0.011,0-0.021,0.003-0.032,0.003l3.558-18.913H255.39c2.348,0,4.25-1.902,4.25-4.25 c0-2.348-1.902-4.25-4.25-4.25H121.234l0.805-4.275c0.233-1.243-0.098-2.526-0.905-3.499c-0.808-0.974-2.007-1.537-3.271-1.537 C81.699,172.76,75.07,227.093,73.91,242.818z M368.906,390.079c-36.6,23.45-79.593,36.428-124.307,36.428 c-44.713,0-87.707-12.978-124.306-36.428c0.034-0.218,0.066-0.437,0.066-0.663c0-78.44,62.398-113.552,124.239-113.552 s124.239,35.111,124.239,113.552C368.839,389.644,368.871,389.862,368.906,390.079z M244.6,466.179 c-95.935,0-184.559-50.943-233.037-133.444h37.016c9.11,13.043,19.412,24.992,30.674,35.785c0.111,0.122,0.231,0.233,0.356,0.342 c44.036,42.031,102.913,66.146,164.991,66.146c61.433,0,119.737-23.605,163.619-64.829c0.008-0.009,0.018-0.017,0.026-0.025 c11.933-11.213,22.807-23.718,32.376-37.418h37.016C429.159,415.236,340.535,466.179,244.6,466.179z">
+                                    </path>
+                                </svg>
+                                Familie</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="text_search">
+        <div class="header123">
+            <div class="text_box">
+                <p class="cefaci"> Ce vrei sa faci azi? </p>
+                <p class="doi"> Descrie activitatea pe care vrei să o faci și spune-ne ce te definește ca persoană —
+                    descoperă lumea în propriul tău <span class="tempo">TEMPO</span>!</p>
+            </div>
+        </div>
+        <div class="search_box">
+            <div class="search">
+                <div class="descriere">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 48 48">
+                        <path id="Combined" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M33.2768 28.9321C34.9961 26.3812 35.9996 23.3078 35.9996 19.9994C35.9996 11.1624 28.8372 3.9994 19.9996 3.9994C11.1633 3.9994 3.99957 11.1631 3.99957 19.9994C3.99957 28.837 11.1626 35.9994 19.9996 35.9994C24.8047 35.9994 29.1142 33.8826 32.0467 30.5304L41.6591 40.1427C42.0745 40.5582 42.0745 41.229 41.6591 41.6445C41.4569 41.8467 41.1888 41.9556 40.9102 41.9556C40.6297 41.9556 40.3616 41.8468 40.1593 41.6445L32.6653 34.1505C32.2748 33.76 31.6416 33.76 31.2511 34.1505C30.8605 34.541 30.8605 35.1742 31.2511 35.5647L38.7451 43.0587C39.3261 43.6398 40.1044 43.9556 40.9102 43.9556C41.7144 43.9556 42.4925 43.6395 43.0733 43.0587C44.2698 41.8622 44.2698 39.925 43.0733 38.7285L33.2768 28.9321ZM31.8319 27.4872C33.2048 25.3219 33.9996 22.7537 33.9996 19.9994C33.9996 12.267 27.7326 5.9994 19.9996 5.9994C12.2679 5.9994 5.99957 12.2677 5.99957 19.9994C5.99957 27.7324 12.2671 33.9994 19.9996 33.9994C24.2525 33.9994 28.0616 32.1044 30.6289 29.1126L28.3871 26.8707C27.9965 26.4802 27.9965 25.847 28.3871 25.4565C28.7776 25.066 29.4108 25.066 29.8013 25.4565L31.8319 27.4872ZM25.4238 28.4021C23.8214 29.4393 21.9526 29.9996 19.9992 29.9996C14.4767 29.9996 9.99917 25.5226 9.99917 19.9996C9.99917 19.4473 9.55146 18.9996 8.99917 18.9996C8.44689 18.9996 7.99917 19.4473 7.99917 19.9996C7.99917 26.6272 13.3722 31.9996 19.9992 31.9996C22.3411 31.9996 24.5867 31.3263 26.5105 30.0811C26.9742 29.781 27.1068 29.1619 26.8067 28.6982C26.5066 28.2346 25.8874 28.102 25.4238 28.4021Z"
+                            fill="#000000"></path>
+                    </svg>
+
+                    <input type="text"
+                        placeholder="ex: Vreau să merg la un eveniment muzical în aer liber unde să cunosc oameni noi. Sunt o persoana sociabila si prietenoasa!">
+
+                </div>
+                <div class="perioada">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M3 9H21M7 3V5M17 3V5M7 13H17V17H7V13ZM6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
+                            stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <!-- <p> Perioada:</p> -->
+                    <input type="text" placeholder="Perioada...">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <!-- </header> -->
+    <div class="p2">
+        <div class="recomandari">
+            <h1 class="txt1">Recomandari</h1>
+
+            <div class="bordura">
+                <div class="box">
+                    <div class="imagine">
+                        <a href="s1.html">
+                            <img src="gradina_cismigiu.jpg" alt="Gradina Cismigiu" class="src1">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="title">
+                            <div class="rand1">
+                                <a href="s1.html" class="text">Gradina Cismigiu</a>
+                            </div>
+                            <div class="locatie">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon"
+                                    xml:space="preserve" fill="#000000" stroke-width="10">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path fill="#F76D57"
+                                                d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16 c0,4.031-2.055,8-4,10.789L32,52.789z">
+                                            </path>
+                                            <g>
+                                                <path fill="#394240"
+                                                    d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289 l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289 C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M44,34.789l-12,18l-12-18C18.5,32,16,28.031,16,24 c0-8.836,7.164-16,16-16s16,7.164,16,16C48,28.031,45.945,32,44,34.789z">
+                                                </path>
+                                                <circle fill="#394240" cx="32" cy="24" r="8"></circle>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <a
+                                    href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEC4YQNIBCDI0OTZqMGoxqAIAsAIA&um=1&ie=UTF-8&fb=1&gl=ro&sa=X&geocode=Kc9vfo9D_7FAMTtCZlEnq5g-&daddr=Bulevardul+Regina+Elisabeta,+Bucure%C8%99ti+030167">Cismigiu
+                                    Gardens, Bulevardul Regina Elisabeta, București 030167</a>
+                            </div>
+                        </div>
+                        <div class="rest">
+                            <div class="descriere">
+                                <p class="text">Parcul Cișmigiu din București este destinat familiilor, copiilor,
+                                    pasionaților de sport și celor care doresc relaxare. Oferă alei pentru plimbare,
+                                    locuri de joacă, bărci pe lac și spații de șah, fiind ideal pentru activități
+                                    recreative în aer liber și odihnă.</p>
+                            </div>
+                        </div>
+                        <div class="etichete">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="box_program">
+                        <div class="text">
+                            <p class="program">Program:</p>
+                            <br>
+                            <div class="zile">
+                                <p>Luni - Duminica:
+                                    00:00-23:59
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carusel">
+                <ul class="lista">
+                    <li class="box">
+                        <div>
+                            <div class="caseta">
+                                <div>
+                                    <a href="gradina_botanica.html" class="linc">
+                                        <img class="imagine" alt="imagine"
+                                            src="https://upload.wikimedia.org/wikipedia/ro/thumb/f/f0/Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg/1200px-Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg">
+                                    </a>
+                                </div>
+                                <div class="about">
+                                    <h3 class="titlu"><a href="gradina_botanica.html" class="linc">Gradina Botanica</a>
+                                    </h3>
+                                    <div class="locatie">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon"
+                                            xml:space="preserve" fill="#000000" stroke-width="10">
+                                            <g stroke-width="0"></g>
+                                            <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#F76D57"
+                                                        d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16 c0,4.031-2.055,8-4,10.789L32,52.789z">
+                                                    </path>
+                                                    <g>
+                                                        <path fill="#394240"
+                                                            d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289 l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289 C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M44,34.789l-12,18l-12-18C18.5,32,16,28.031,16,24 c0-8.836,7.164-16,16-16s16,7.164,16,16C48,28.031,45.945,32,44,34.789z">
+                                                        </path>
+                                                        <circle fill="#394240" cx="32" cy="24" r="8"></circle>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <a class="linc1"
+                                            href="https://www.google.com/maps/dir//%C8%98oseaua+Cotroceni+32,+Bucure%C8%99ti/@44.437199,25.9802764,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x40b201dd97d58297:0x301135551489fb73!2m2!1d26.0626771!2d44.4372286?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
+                                            "Dimitrie Brândză" Botanical Garden, Șoseaua Cotroceni 32, București</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div>
+                            <div class="caseta">
+                                <div>
+                                    <a href="gradina_botanica.html" class="linc">
+                                        <img class="imagine" alt="imagine"
+                                            src="https://upload.wikimedia.org/wikipedia/ro/thumb/f/f0/Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg/1200px-Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg">
+                                    </a>
+                                </div>
+                                <div class="about">
+                                    <h3 class="titlu"><a href="gradina_botanica.html" class="linc">Gradina Botanica</a>
+                                    </h3>
+                                    <div class="locatie">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon"
+                                            xml:space="preserve" fill="#000000" stroke-width="10">
+                                            <g stroke-width="0"></g>
+                                            <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#F76D57"
+                                                        d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16 c0,4.031-2.055,8-4,10.789L32,52.789z">
+                                                    </path>
+                                                    <g>
+                                                        <path fill="#394240"
+                                                            d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289 l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289 C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M44,34.789l-12,18l-12-18C18.5,32,16,28.031,16,24 c0-8.836,7.164-16,16-16s16,7.164,16,16C48,28.031,45.945,32,44,34.789z">
+                                                        </path>
+                                                        <circle fill="#394240" cx="32" cy="24" r="8"></circle>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <a class="linc1"
+                                            href="https://www.google.com/maps/dir//%C8%98oseaua+Cotroceni+32,+Bucure%C8%99ti/@44.437199,25.9802764,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x40b201dd97d58297:0x301135551489fb73!2m2!1d26.0626771!2d44.4372286?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
+                                            "Dimitrie Brândză" Botanical Garden, Șoseaua Cotroceni 32, București</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div>
+                            <div class="caseta">
+                                <div>
+                                    <a href="gradina_botanica.html" class="linc">
+                                        <img class="imagine" alt="imagine"
+                                            src="https://upload.wikimedia.org/wikipedia/ro/thumb/f/f0/Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg/1200px-Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg">
+                                    </a>
+                                </div>
+                                <div class="about">
+                                    <h3 class="titlu"><a href="gradina_botanica.html" class="linc">Gradina Botanica</a>
+                                    </h3>
+                                    <div class="locatie">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon"
+                                            xml:space="preserve" fill="#000000" stroke-width="10">
+                                            <g stroke-width="0"></g>
+                                            <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#F76D57"
+                                                        d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16 c0,4.031-2.055,8-4,10.789L32,52.789z">
+                                                    </path>
+                                                    <g>
+                                                        <path fill="#394240"
+                                                            d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289 l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289 C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M44,34.789l-12,18l-12-18C18.5,32,16,28.031,16,24 c0-8.836,7.164-16,16-16s16,7.164,16,16C48,28.031,45.945,32,44,34.789z">
+                                                        </path>
+                                                        <circle fill="#394240" cx="32" cy="24" r="8"></circle>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <a class="linc1"
+                                            href="https://www.google.com/maps/dir//%C8%98oseaua+Cotroceni+32,+Bucure%C8%99ti/@44.437199,25.9802764,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x40b201dd97d58297:0x301135551489fb73!2m2!1d26.0626771!2d44.4372286?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
+                                            "Dimitrie Brândză" Botanical Garden, Șoseaua Cotroceni 32, București</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div>
+                            <div class="caseta">
+                                <div>
+                                    <a href="gradina_botanica.html" class="linc">
+                                        <img class="imagine" alt="imagine"
+                                            src="https://upload.wikimedia.org/wikipedia/ro/thumb/f/f0/Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg/1200px-Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg">
+                                    </a>
+                                </div>
+                                <div class="about">
+                                    <h3 class="titlu"><a href="gradina_botanica.html" class="linc">Gradina Botanica</a>
+                                    </h3>
+                                    <div class="locatie">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon"
+                                            xml:space="preserve" fill="#000000" stroke-width="10">
+                                            <g stroke-width="0"></g>
+                                            <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#F76D57"
+                                                        d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16 c0,4.031-2.055,8-4,10.789L32,52.789z">
+                                                    </path>
+                                                    <g>
+                                                        <path fill="#394240"
+                                                            d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289 l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289 C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M44,34.789l-12,18l-12-18C18.5,32,16,28.031,16,24 c0-8.836,7.164-16,16-16s16,7.164,16,16C48,28.031,45.945,32,44,34.789z">
+                                                        </path>
+                                                        <circle fill="#394240" cx="32" cy="24" r="8"></circle>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <a class="linc1"
+                                            href="https://www.google.com/maps/dir//%C8%98oseaua+Cotroceni+32,+Bucure%C8%99ti/@44.437199,25.9802764,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x40b201dd97d58297:0x301135551489fb73!2m2!1d26.0626771!2d44.4372286?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
+                                            "Dimitrie Brândză" Botanical Garden, Șoseaua Cotroceni 32, București</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div>
+                            <div class="caseta">
+                                <div>
+                                    <a href="gradina_botanica.html" class="linc">
+                                        <img class="imagine" alt="imagine"
+                                            src="https://upload.wikimedia.org/wikipedia/ro/thumb/f/f0/Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg/1200px-Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg">
+                                    </a>
+                                </div>
+                                <div class="about">
+                                    <h3 class="titlu"><a href="gradina_botanica.html" class="linc">Gradina Botanica</a>
+                                    </h3>
+                                    <div class="locatie">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon"
+                                            xml:space="preserve" fill="#000000" stroke-width="10">
+                                            <g stroke-width="0"></g>
+                                            <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#F76D57"
+                                                        d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16 c0,4.031-2.055,8-4,10.789L32,52.789z">
+                                                    </path>
+                                                    <g>
+                                                        <path fill="#394240"
+                                                            d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289 l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289 C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M44,34.789l-12,18l-12-18C18.5,32,16,28.031,16,24 c0-8.836,7.164-16,16-16s16,7.164,16,16C48,28.031,45.945,32,44,34.789z">
+                                                        </path>
+                                                        <circle fill="#394240" cx="32" cy="24" r="8"></circle>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <a class="linc1"
+                                            href="https://www.google.com/maps/dir//%C8%98oseaua+Cotroceni+32,+Bucure%C8%99ti/@44.437199,25.9802764,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x40b201dd97d58297:0x301135551489fb73!2m2!1d26.0626771!2d44.4372286?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
+                                            "Dimitrie Brândză" Botanical Garden, Șoseaua Cotroceni 32, București</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <div>
+                            <div class="caseta">
+                                <div>
+                                    <a href="gradina_botanica.html" class="linc">
+                                        <img class="imagine" alt="imagine"
+                                            src="https://upload.wikimedia.org/wikipedia/ro/thumb/f/f0/Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg/1200px-Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg">
+                                    </a>
+                                </div>
+                                <div class="about">
+                                    <h3 class="titlu"><a href="gradina_botanica.html" class="linc">Gradina Botanica</a>
+                                    </h3>
+                                    <div class="locatie">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon"
+                                            xml:space="preserve" fill="#000000" stroke-width="10">
+                                            <g stroke-width="0"></g>
+                                            <g stroke-linecap="round" stroke-linejoin="round"></g>
+                                            <g>
+                                                <g>
+                                                    <path fill="#F76D57"
+                                                        d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16 c0,4.031-2.055,8-4,10.789L32,52.789z">
+                                                    </path>
+                                                    <g>
+                                                        <path fill="#394240"
+                                                            d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289 l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289 C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M44,34.789l-12,18l-12-18C18.5,32,16,28.031,16,24 c0-8.836,7.164-16,16-16s16,7.164,16,16C48,28.031,45.945,32,44,34.789z">
+                                                        </path>
+                                                        <circle fill="#394240" cx="32" cy="24" r="8"></circle>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <a class="linc1"
+                                            href="https://www.google.com/maps/dir//%C8%98oseaua+Cotroceni+32,+Bucure%C8%99ti/@44.437199,25.9802764,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x40b201dd97d58297:0x301135551489fb73!2m2!1d26.0626771!2d44.4372286?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
+                                            "Dimitrie Brândză" Botanical Garden, Șoseaua Cotroceni 32, București</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
