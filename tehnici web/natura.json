@@ -1,0 +1,20 @@
+[
+    {
+        "titlu": "Gradina Cismigiu",
+        "imagine": "gradina_cismigiu.jpg",
+        "link": "s1.html",
+        "locatieText": "Cismigiu Gardens, Bulevardul Regina Elisabeta, București 030167",
+        "locatieLink": "https://www.google.com/maps?q=cismigiu",
+        "descriere": "Parcul Cișmigiu din București este destinat familiilor, copiilor, pasionaților de sport și celor care doresc relaxare. Oferă alei pentru plimbare, locuri de joacă, bărci pe lac și spații de șah, fiind ideal pentru activități recreative în aer liber și odihnă.",
+        "program": "Luni - Duminica: 00:00-23:59"
+    },
+    {
+        "titlu": "Parcul Herăstrău",
+        "imagine": "https://bucurestiulmeudrag.ro/img/photos/s1920/5840451a-019c-426f-9d92-449e592b13d5.jpg",
+        "link": "s2.html",
+        "locatieText": "Şoseaua Pavel D. Kiseleff 32, București 014192",
+        "locatieLink": "https://maps.app.goo.gl/2MhHJznrnE3e9Fbe9",
+        "descriere": "Parcul Herăstrău oferă o varietate de activități recreative, plimbări cu barca, și spații verzi întinse.",
+        "program": "Luni - Duminica: 10:00-20:00"
+    }
+]
