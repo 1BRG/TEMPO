@@ -1,0 +1,66 @@
+[
+    {
+        "titlu": "Muzeul Național de Artă al României",
+        "imagine": "https://booktes.com/thumbs/866/61d832c5ec987_1641558725.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Muzeul_Na%C8%9Bional_de_Art%C4%83_al_Rom%C3%A2niei",
+        "locatieText": "Calea Victoriei 49-53, București ",
+        "locatieLink": "https://maps.app.goo.gl/tN1NfHkXD4tXwENf7",
+        "descriere": "Muzeul Național de Artă al României găzduiește una dintre cele mai importante colecții de artă europeană și românească din țară, fiind un loc ideal pentru iubitorii de artă clasică și modernă.",
+        "program": "Marți - Duminica: 10:00-18:00"
+    },
+    {
+        "titlu": "Palatul Parlamentului",
+        "imagine": "https://grand-hotel-continental-bucuresti.continentalhotels.ro/wp-content/uploads/sites/10/2020/09/16-9-palatul-parlamentului-98219420.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Palatul_Parlamentului",
+        "locatieText": "Strada Izvor 2-4, București ",
+        "locatieLink": "https://www.google.com/maps?q=palatul+parlamentului",
+        "descriere": "Palatul Parlamentului este una dintre cele mai mari clădiri administrative din lume. Vizitatorii pot explora interioarele impresionante ale acestui simbol al puterii politice din România.",
+        "program": "Luni - Vineri: 09:00-17:00"
+    },
+    {
+        "titlu": "Ateneul Român",
+        "imagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ateneo_Rumano%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_73.jpg/1200px-Ateneo_Rumano%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_73.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Ateneul_Rom%C3%A2n",
+        "locatieText": "Strada Benjamin Franklin 1-3, București ",
+        "locatieLink": "https://maps.app.goo.gl/sSvhvAa4HvMragDx6",
+        "descriere": "Ateneul Român este un simbol al culturii românești, un loc renumit pentru concertele sale de muzică clasică și pentru arhitectura sa impresionantă. Este un loc de adunare al iubitorilor de muzică și cultură.",
+        "program": "Luni - Duminica: 10:00-20:00"
+    },
+    {
+        "titlu": "Muzeul Național de Istorie a României",
+        "imagine": "https://www.mnir.ro/wp-content/uploads/2020/08/FOTO_-MNIR-1536x1180-1.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Muzeul_Na%C8%9Bional_de_Istorie_a_Rom%C3%A2niei",
+        "locatieText": "Calea Victoriei 12, București 030026",
+        "locatieLink": "https://maps.app.goo.gl/TahT3ojC8MHZyh1H7",
+        "descriere": "Muzeul Național de Istorie a României oferă o privire detaliată asupra istoriei țării, cu expoziții ce includ artefacte din perioada preistorică până în prezent.",
+        "program": "Luni - Duminica: 10:00-18:00"
+    },
+    {
+        "titlu": "Muzeul de Artă Contemporană",
+        "imagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGoOSH14X6yKikgYWEdmbP5eHFAjlFSFS3Q&s",
+        "link": "https://ro.wikipedia.org/wiki/Muzeul_de_Art%C4%83_Contemporană",
+        "locatieText": "Strada Izvor 2-4, București 050563",
+        "locatieLink": "https://maps.app.goo.gl/ot8XAopaVr84j1E97a",
+        "descriere": "Muzeul de Artă Contemporană din București este dedicat celor mai noi tendințe în arta contemporană, găzduind lucrări de artă ale unor artiști români și internaționali.",
+        "program": "Luni - Duminica: 10:00-18:00"
+    },
+    {
+        "titlu": "Teatrul Național București",
+        "imagine": "https://lovinromania.com/wp-content/uploads/2023/04/national-theater-bucharest-7.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Teatrul_Na%C8%9Bional_%E2%80%9EIon_Luca_Caragiale%E2%80%9D_din_Bucure%C8%99ti",
+        "locatieText": "Bulevardul Nicolae Bălcescu 2, București",
+        "locatieLink": "https://maps.app.goo.gl/JvteAYQGatQjeRLC6",
+        "descriere": "Teatrul Național București este unul dintre cele mai prestigioase teatre din România, cu o istorie îndelungată și o programare diversificată de spectacole de teatru clasic și contemporan.",
+        "program": "Luni - Duminica: 10:00-22:00"
+    },
+    {
+        "titlu": "Opera Națională București",
+        "imagine": "https://operanb.ro/wp-content/uploads/2016/09/sala.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Opera_Na%C8%9Bională_din_Bucure%C8%99ti",
+        "locatieText": "Bulevardul Mihail Kogălniceanu 70-72, București",
+        "locatieLink": "https://maps.app.goo.gl/XkBeHncrZ6tBoseu7",
+        "descriere": "Opera Națională București oferă spectacole de operă de renume internațional, fiind un loc unde iubitorii muzicii clasice se pot bucura de producții deosebite.",
+        "program": "Luni - Duminica: 10:00-22:00"
+    }
+]
+ 

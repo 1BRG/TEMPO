@@ -1007,7 +1007,17 @@ body {
 
 @media only screen and (max-width: 750px) {
     .bordura {
+        /* display: none; */
+        width: 100%;
+        height: 100%;
+        font-size: 0.67rem;
+    }
+    .box .rest .descriere .text
+    {
         display: none;
+        font-size: 0.35rem;
+        
+        
     }
 
     .p1234 {

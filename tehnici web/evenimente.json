@@ -1,0 +1,56 @@
+[
+    {
+        "titlu": "Muzeul Iluziilor",
+        "imagine": "https://www.aficotroceni.ro/wp-content/uploads/2017/12/Museum_of_senses_224.jpg",
+        "link": "https://www.museumofsenses.ro/",
+        "locatieText": "Calea Victoriei 7, București",
+        "locatieLink": "https://maps.app.goo.gl/nWPzczFxbZ2SpPyL7",
+        "descriere": "Muzeul Iluziilor din București este locul perfect pentru o ieșire de familie, cu expoziții interactive și efecte vizuale care vor pune la încercare percepția și imaginația. Ideal pentru o după-amiază plăcută și plină de distracție.",
+        "program": "Luni - Duminica: 10:00-22:00"
+    },
+    {
+        "titlu": "Concert Johann Strauss II",
+        "imagine": "https://tse2.mm.bing.net/th?id=OIP.N8uznGuIPXhVhMgoBseSTwHHFB&pid=Api",
+        "link": "https://www.eventim.ro/ro/bilete/festivalul-johann-strauss-bucuresti-ateneul-roman-554921/event.html",
+        "locatieText": "Ateneul Român, București",
+        "locatieLink": "https://goo.gl/maps/kGVHmfqA1FP7ex4v5",
+        "descriere": "Pe 11 ianuarie 2025, la Ateneul Român, va avea loc un concert special dedicat celor 200 de ani de la nașterea compozitorului Johann Strauss II, parte din Festivalul Johann Strauss. Evenimentul va oferi o seară de muzică clasică, fiind un adevărat festin pentru iubitorii genului.",
+        "program": "Vineri, 11 ianuarie 2025: 19:00"
+    },
+    {
+        "titlu": "Duke Ellington Orchestra",
+        "imagine": "https://tse1.mm.bing.net/th?id=OIP.BlztHGf9C7Q8UAQhfbg4rgAAAA&pid=Api",
+        "link": "https://m.iabilet.ro/bilete-the-duke-ellington-orchestra-101418/",
+        "locatieText": "Sala Palatului, București",
+        "locatieLink": "https://goo.gl/maps/TdfNrkQNCYgXsYsQ7",
+        "descriere": "Pe 20 ianuarie 2025, Sala Palatului din București va găzdui un concert aniversar dedicat celor 100 de ani de la înființarea Duke Ellington Orchestra, fiind o oportunitate de a asculta unele dintre cele mai mari hituri ale muzicii jazz.",
+        "program": "Luni, 20 ianuarie 2025: 20:00"
+    },
+    {
+        "titlu": "Stand-up comedy",
+        "imagine": "https://tse2.mm.bing.net/th?id=OIP.ck7949xTP9aXkn3S4jtToQHaKe&pid=Api",
+        "link": "https://bilete.thefool.ro/bilete-the-fool-stand-up-comedy-cu-mincu-frinculescu-bogdan-malaele-si-dan-birtas-106050/",
+        "locatieText": "The Fool, București",
+        "locatieLink": "https://goo.gl/maps/KfxW4oNYkM2DRsm88",
+        "descriere": "Pe 10 ianuarie 2025, The Fool din București va găzdui un show de stand-up comedy cu patru comedieni de renume Mincu, Frînculescu, Bogdan Mălăele și Dan Birtaș. Dacă ești în căutare de râs continuu și distracție, acest eveniment este perfect pentru tine.",
+        "program": "Vineri, 10 ianuarie 2025: 21:00"
+    },
+    {
+        "titlu": "Stand-up comedy",
+        "imagine": "https://tse1.mm.bing.net/th?id=OIP.WTBfSshup1zfSPGJsfLwYgHaEo&pid=Api",
+        "link": "https://iphone-v1.iabilet.ro/bilete-stand-up-comedy-cu-vio-costel-raul-gheba-bogzi-la-club-99-105732/",
+        "locatieText": "Club 99, București",
+        "locatieLink": "https://goo.gl/maps/F2bFrx6J6D1gU2Kv7",
+        "descriere": "Pe 11 ianuarie 2025, Club 99 din București va organiza un spectacol de stand-up comedy cu patru dintre cei mai apreciați comedieni ai momentului cu Vio, Costel, Mocanu și Banciu. Va fi o seară plină de umor și situații amuzante, ideală pentru o ieșire cu prietenii.",
+        "program": "Sâmbătă, 11 ianuarie 2025: 20:00"
+    },
+    {
+        "titlu": "Spectacolul 'Risipire'",
+        "imagine": "https://tse1.mm.bing.net/th?id=OIP.LPjwIe4poesBFV-5jQ6p3gHaFj&pid=Api",
+        "link": "https://www.tnb.ro/ro/risipire",
+        "locatieText": "Teatrul Coquette, București",
+        "locatieLink": "https://goo.gl/maps/MqHvv6tT9bKbbZ3j8",
+        "descriere": "'Risipire' este un spectacol de teatru care va avea loc pe 12 ianuarie 2025 la Teatrul Coquette din București. Este o piesă ce explorează amintirile și iubirea, fiind un spectacol emoționant, dar și plin de momente de reflecție.",
+        "program": "Duminică, 12 ianuarie 2025: 19:30"
+    }
+]

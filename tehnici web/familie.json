@@ -1,0 +1,56 @@
+[
+    {
+        "titlu": "Parcul Tineretului",
+        "imagine": "https://b365.ro/wp-content/uploads/2022/01/tnrtli.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Tineretului",
+        "locatieText": "Bulevardul Tineretului, București ",
+        "locatieLink": "https://maps.app.goo.gl/D81dsWF417jfujkS7",
+        "descriere": "Parcul Tineretului din București este ideal pentru familii, având locuri de joacă, piste pentru biciclete și zone de picnic. De asemenea, se poate face o plimbare pe aleile verzi sau pe lângă lac, fiind un loc potrivit pentru relaxare și activități în aer liber.",
+        "program": "Luni - Duminica: 06:00-22:00"
+    },
+    {
+        "titlu": "Lumea Copiilor Park",
+        "imagine": "https://www.clubulcopiilor.ro/wp-content/uploads/2023/02/Parcul_Lumea_Copiilor_2-jpeg.webp",
+        "link": "https://www.clubulcopiilor.ro/loc/parcul-lumea-copiilor/",
+        "locatieText": "C437+RM, București",
+        "locatieLink": "https://maps.app.goo.gl/aFCkTh8V6vjMAhsNA",
+        "descriere": "Lumea Copiilor este un parc dedicat exclusiv copiilor, cu locuri de joacă variate și un lac mic unde se pot închiria bărci. Acesta este locul perfect pentru a petrece o zi activă și plăcută alături de cei mici.",
+        "program": "Luni - Duminica: 09:00-20:00"
+    },
+    {
+        "titlu": "Aqua Magic",
+        "imagine": "https://waterpark.ro/wp-content/uploads/2023/07/Waterpark-24.06.2023-mici-139.jpg",
+        "link": "https://waterpark.ro/",
+        "locatieText": "Șoseaua Virtuții 55, București",
+        "locatieLink": "https://maps.app.goo.gl/FEYxVTw5PVu3MxeC6",
+        "descriere": "Aqua Magic este un parc acvatic ce oferă o mulțime de piscine și tobogane pentru întreaga familie. Este o destinație perfectă pentru o zi de distracție, cu activități pentru copii de toate vârstele, inclusiv piscine speciale pentru cei mici.",
+        "program": "Luni - Duminica: 10:00-18:00 (deschis vara)"
+    },
+    {
+        "titlu": "Grădina Botanică",
+        "imagine": "https://www.naturplant.ro/wp-content/uploads/2022/11/Gradina-Botanica-Iasi1-1.jpg",
+        "link": "s4.html",
+        "locatieText": "Șoseaua Cotroceni 32, București ",
+        "locatieLink": "https://maps.app.goo.gl/gvo4g4PCWJVQ4pEn9",
+        "descriere": "Grădina Botanică oferă un spațiu verde vast pentru familii, cu o diversitate impresionantă de plante. Copiii pot învăța despre natură în timp ce se distrează explorând aleile sau se relaxează lângă lacuri. Este un loc deosebit pentru o excursie educativă și relaxantă.",
+        "program": "Luni - Duminica: 09:00-18:00"
+    },
+    {
+        "titlu": "ParkLake Shopping Center",
+        "imagine": "https://zilesinopti.ro/wp-content/uploads/2021/08/41397909059d0a5af94b4f5.88872181.jpg",
+        "link": "https://www.parklake.ro/",
+        "locatieText": "Str. Liviu Rebreanu 4, București",
+        "locatieLink": "https://maps.app.goo.gl/RMdZ4cvA9F6awAj5A",
+        "descriere": "ParkLake este un centru comercial unde familiile pot petrece timp împreună, cu o zonă de joacă pentru copii, locații pentru a mânca și filme pentru întreaga familie. Este locul ideal pentru o zi relaxantă, cu activități pentru toate vârstele.",
+        "program": "Luni - Duminica: 10:00-22:00"
+    },
+    {
+        "titlu": "Muzeul Iluziilor",
+        "imagine": "https://www.aficotroceni.ro/wp-content/uploads/2017/12/Museum_of_senses_224.jpg",
+        "link": "https://www.museumofsenses.ro/",
+        "locatieText": "Calea Victoriei 7, București",
+        "locatieLink": "https://maps.app.goo.gl/nWPzczFxbZ2SpPyL7",
+        "descriere": "Muzeul Iluziilor din București este locul perfect pentru o ieșire de familie, cu expoziții interactive și efecte vizuale care vor pune la încercare percepția și imaginația. Ideal pentru o după-amiază plăcută și plină de distracție.",
+        "program": "Luni - Duminica: 10:00-22:00"
+    }
+]

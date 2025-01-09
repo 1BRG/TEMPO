@@ -11,10 +11,55 @@
     {
         "titlu": "Parcul Herăstrău",
         "imagine": "https://bucurestiulmeudrag.ro/img/photos/s1920/5840451a-019c-426f-9d92-449e592b13d5.jpg",
-        "link": "s2.html",
-        "locatieText": "Şoseaua Pavel D. Kiseleff 32, București 014192",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Regele_Mihai_I_al_Rom%C3%A2niei",
+        "locatieText": "Şoseaua Pavel D. Kiseleff 32, București ",
         "locatieLink": "https://maps.app.goo.gl/2MhHJznrnE3e9Fbe9",
         "descriere": "Parcul Herăstrău oferă o varietate de activități recreative, plimbări cu barca, și spații verzi întinse.",
         "program": "Luni - Duminica: 10:00-20:00"
+    },
+    {
+        "titlu": "Parcul Tineretului",
+        "imagine": "https://b365.ro/wp-content/uploads/2022/01/tnrtli.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Tineretului",
+        "locatieText": "Bulevardul Tineretului, București ",
+        "locatieLink": "https://maps.app.goo.gl/D81dsWF417jfujkS7",
+        "descriere": "Parcul Tineretului este o destinație excelentă pentru relaxare și sport. Aici, vizitatorii pot explora alei verzi, locuri de joacă, dar și spații pentru sportivii amatori și profesioniști.",
+        "program": "Luni - Duminica: 00:00-23:59"
+    },
+    {
+        "titlu": "Grădina Botanică",
+        "imagine": "https://www.naturplant.ro/wp-content/uploads/2022/11/Gradina-Botanica-Iasi1-1.jpg",
+        "link": "s4.html",
+        "locatieText": "Șoseaua Cotroceni 32, București ",
+        "locatieLink": "https://maps.app.goo.gl/gvo4g4PCWJVQ4pEn9",
+        "descriere": "Grădina Botanică din București este un loc dedicat iubitorilor de plante și natură. Aici se regăsesc specii de plante din toate colțurile lumii, iar atmosfera liniștită este perfectă pentru o plimbare relaxantă.",
+        "program": "Luni - Vineri: 09:00-17:00"
+    },
+    {
+        "titlu": "Lacul Morii",
+        "imagine": "https://adps6.ro/adp_primariesector6/sites/default/files/2022-10/digul%20lacul%20morii%20dupa%20%20%281%29.png",
+        "link": "https://ro.wikipedia.org/wiki/Lacul_Morii",
+        "locatieText": "Faleza Crangasi, Calea Crângași, București",
+        "locatieLink": "https://maps.app.goo.gl/iDX5CWjSVZAqHNns8",
+        "descriere": "Lacul Morii este un loc perfect pentru iubitorii de natură, oferind atât oportunități de recreere pe apă, cât și plimbări de-a lungul malului lacului înconjurat de verdeață.",
+        "program": "Luni - Duminica: 06:00-22:00"
+    },
+    {
+        "titlu": "Parcul Carol",
+        "imagine": "https://www.descopera.ro/wp-content/uploads/2021/07/parcul-carol-shutter_Descopera-3-scaled.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Carol_I",
+        "locatieText": "Bulevardul Mărășești, București",
+        "locatieLink": "https://maps.app.goo.gl/8zQidp4A3T2qqPbZ6",
+        "descriere": "Parcul Carol este un parc istoric ce combină elemente de natură cu monumente istorice și arhitectură. Locul ideal pentru o plimbare liniștită, dar și pentru activități culturale în aer liber.",
+        "program": "Luni - Duminica: 00:00-23:59"
+    },
+    {
+        "titlu": "Padurea Baneasa",
+        "imagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQii2OtZTrv3dST1iVOit1zRpwb_GVJ8AhOxw&s",
+        "link": "https://en.wikipedia.org/wiki/B%C4%83neasa_Forest",
+        "locatieText": "București, Sector 1",
+        "locatieLink": "https://maps.app.goo.gl/hQoVyqdVGbnKE2id9",
+        "descriere": "Pădurea Băneasa oferă un colț de natură mai sălbatic, unde iubitorii de drumeții pot explora peisaje naturale și se pot bucura de aer curat în mijlocul Bucureștiului.",
+        "program": "Luni - Duminica: 06:00-20:00"
     }
 ]

@@ -1,0 +1,44 @@
+[
+    {
+        "titlu": "Gradina Cismigiu",
+        "imagine": "gradina_cismigiu.jpg",
+        "link": "s1.html",
+        "locatieText": "Cismigiu Gardens, Bulevardul Regina Elisabeta, București 030167",
+        "locatieLink": "https://www.google.com/maps?q=cismigiu"
+    },
+    {
+        "titlu": "Stay Fit Gym",
+        "imagine": "https://stayfit.ro/wp-content/uploads/2024/01/stay-fit-gym-bucuresti-teiul-doamnei-i8.webp",
+        "link": "https://stayfit.ro/bucuresti/teiul-doamnei/",
+        "locatieText": "Str. Teiul Doamnei 35A, București",
+        "locatieLink": "https://maps.app.goo.gl/D88MndjniGu3NAsB7"
+    },
+    {
+        "titlu": "Opera Națională București",
+        "imagine": "https://operanb.ro/wp-content/uploads/2016/09/sala.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Opera_Na%C8%9Bională_din_Bucure%C8%99ti",
+        "locatieText": "Bulevardul Mihail Kogălniceanu 70-72, București",
+        "locatieLink": "https://maps.app.goo.gl/XkBeHncrZ6tBoseu7"
+    },
+    {
+        "titlu": "Muzeul Iluziilor",
+        "imagine": "https://www.aficotroceni.ro/wp-content/uploads/2017/12/Museum_of_senses_224.jpg",
+        "link": "https://www.museumofsenses.ro/",
+        "locatieText": "Calea Victoriei 7, București",
+        "locatieLink": "https://maps.app.goo.gl/nWPzczFxbZ2SpPyL7"
+    },
+    {
+        "titlu": "Gradina Botanica",
+        "link": "gradina_botanica.html",
+        "imagine": "https://upload.wikimedia.org/wikipedia/ro/thumb/f/f0/Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg/1200px-Intrarea_in_Gradina_Botanica_din_Bucuresti.jpg",
+        "locatieText":  "\"Dimitrie Brândză\" Botanical Garden, Șoseaua Cotroceni 32, București",
+        "locatieLink": "https://www.google.com/maps/dir//%C8%98oseaua+Cotroceni+32,+Bucure%C8%99ti/@44.437199,25.9802764,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x40b201dd97d58297:0x301135551489fb73!2m2!1d26.0626771!2d44.4372286?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+        "titlu": "Duke Ellington Orchestra",
+        "imagine": "https://tse1.mm.bing.net/th?id=OIP.BlztHGf9C7Q8UAQhfbg4rgAAAA&pid=Api",
+        "link": "https://m.iabilet.ro/bilete-the-duke-ellington-orchestra-101418/",
+        "locatieText": "Sala Palatului, București",
+        "locatieLink": "https://goo.gl/maps/TdfNrkQNCYgXsYsQ7"
+    }
+]

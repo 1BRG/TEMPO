@@ -1,0 +1,56 @@
+[
+    {
+        "titlu": "Stay Fit Gym",
+        "imagine": "https://stayfit.ro/wp-content/uploads/2024/01/stay-fit-gym-bucuresti-teiul-doamnei-i8.webp",
+        "link": "https://stayfit.ro/bucuresti/teiul-doamnei/",
+        "locatieText": "Str. Teiul Doamnei 35A, București",
+        "locatieLink": "https://maps.app.goo.gl/D88MndjniGu3NAsB7",
+        "descriere": "Stay Fit Gym este o sală modernă ce oferă echipamente de fitness, spații pentru antrenamente și clase de grup pentru pasionații de sport.",
+        "program": "Luni - Vineri: 07:00-22:00, Sâmbătă - Duminică: 08:00-20:00"
+    },
+    {
+        "titlu": "Magic Arena",
+        "imagine": "https://www.magic-arena.ro/galerii/foto/mari/14.jpg",
+        "link": "https://magic-arena.ro/",
+        "locatieText": "Splaiul Independenței 336, București ",
+        "locatieLink": "https://maps.app.goo.gl/wDzgS5TD8iMUSuuH9",
+        "descriere": "Magic Arena oferă terenuri de fotbal acoperite, cu gazon sintetic, ideale pentru competiții sau antrenamente în orice sezon.",
+        "program": "Luni - Duminica: 09:00-22:00"
+    },
+    {
+        "titlu": "Clubul de Dans",
+        "imagine": "https://lh3.googleusercontent.com/proxy/TBXhAcIFQsxHaXEC-yK7LCYDzFlEHnDi1Sh2sqd6ApCO7XlWffGZcsAcxYSD8dGKv1-DLevfgyDIWGGgnilHQFiY1zZgnPkAABe6RLaM42D9SLmXyNwENgzDQI5MVpjhmxLkG3c",
+        "link": "http://www.mihaipetre.ro/",
+        "locatieText": "Splaiul Independenței 319, București",
+        "locatieLink": "https://maps.app.goo.gl/3Lbzn9NyjaS8u8c86",
+        "descriere": "Clubul de Dans Sportiv Mihai Petre oferă cursuri de dans pentru toate vârstele, fiind ideal pentru cei care doresc să îmbine sportul cu arta.",
+        "program": "Luni - Vineri: 10:00-20:00, Sâmbătă: 10:00-14:00"
+    },
+    {
+        "titlu": "Complexul Sportiv Floreasca",
+        "imagine": "https://lh5.googleusercontent.com/p/AF1QipOyztcfvpvfXg7VW9s0W4eRVUssdXFjxqZom-pb=w471-h240-k-no",
+        "link": "https://www.google.com/maps/search/Complexul+Sportiv+Floreasca%2C+Bucure%C8%99ti%2C+Rom%C3%A2nia",
+        "locatieText": "Șoseaua Floreasca, București",
+        "locatieLink": "https://maps.app.goo.gl/complex_floreasca",
+        "descriere": "Complexul Sportiv Floreasca oferă terenuri de tenis, piscine și facilități pentru diverse activități sportive, fiind o alegere populară pentru sportivi.",
+        "program": "Luni - Duminica: 08:00-22:00"
+    },
+    {
+        "titlu": "Parcul Herăstrău",
+        "imagine": "https://bucurestiulmeudrag.ro/img/photos/s1920/5840451a-019c-426f-9d92-449e592b13d5.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Regele_Mihai_I_al_Rom%C3%A2niei",
+        "locatieText": "Şoseaua Pavel D. Kiseleff 32, București ",
+        "locatieLink": "https://maps.app.goo.gl/2MhHJznrnE3e9Fbe9",
+        "descriere": "Parcul Herăstrău oferă o varietate de activități recreative, plimbări cu barca, și spații verzi întinse.",
+        "program": "Luni - Duminica: 10:00-20:00"
+    },
+    {
+        "titlu": "Parcul Tineretului",
+        "imagine": "https://b365.ro/wp-content/uploads/2022/01/tnrtli.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Tineretului",
+        "locatieText": "Bulevardul Tineretului, București ",
+        "locatieLink": "https://maps.app.goo.gl/D81dsWF417jfujkS7",
+        "descriere": "Parcul Tineretului este o destinație excelentă pentru relaxare și sport. Aici, vizitatorii pot explora alei verzi, locuri de joacă, dar și spații pentru sportivii amatori și profesioniști.",
+        "program": "Luni - Duminica: 00:00-23:59"
+    }
+]
