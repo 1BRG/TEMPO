@@ -14,9 +14,7 @@ function sitenume() {
     nume = nume.split("").reverse().join("");
     return nume;
 }
-window.onload = function () {
-    nume = sitenume();
-    nume += ".json";
+function recomandari(nume) {
     fetch(nume)
         .then(response => {
             return response.json();
@@ -83,7 +81,8 @@ window.onload = function () {
                 container.innerHTML += box;
             });
         })
-    nume = "toate.json";
+}
+function selectie(nume) {
     fetch(nume)
         .then(response => {
             return response.json();
@@ -130,4 +129,37 @@ window.onload = function () {
                 container.innerHTML += box;
             });
         })
+}
+window.onload = function () {
+    nume = sitenume();
+    nume += ".json";
+    recomandari(nume);
+    nume = "toate.json";
+    selectie(nume);
+    var part2 = document.getElementsByClassName("part2")[0];
+    document.body.onkeyup = function (event) {
+        var t = event.key;
+        if (t == "d") {
+            part2.style.backgroundColor = "black";
+            document.getElementById("selectie").style.color = "white";
+        }
+        else if (t == "w")
+            part2.style.backgroundColor = "white", document.getElementById("selectie").style.color = "black";
+        else if (t == "l")
+            part2.style.backgroundColor = "lightgoldenrodyellow", document.getElementById("selectie").style.color = "black";
+        else return;
+    }
+    var del = document.getElementsByClassName("special")[0];
+    del.onclick = function () {
+        var unde = document.getElementsByClassName("bordura")[0];
+        if (unde)
+            unde.parentNode.removeChild(unde);
+        else window.open("index.html");
+
+    }
+    let count = 0;
+    setInterval(function () {
+        count++;
+        document.getElementById("timer").textContent = `Numar de secunde petrecute pe aceasta pagina: ${count}`;
+    }, 1000);
 }

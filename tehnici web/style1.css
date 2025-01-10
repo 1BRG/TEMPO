@@ -1,3 +1,4 @@
+
 .head1 {
     padding: 0.5em;
     /* border-width: 3px;
@@ -7,7 +8,13 @@
     background-color: #6a994e;
 
 }
+.part2
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
 
+    background-color: white;
+}
 .activitati .tip:hover {
     background-color: #4b7010;
 }
@@ -85,6 +92,11 @@ body {
     margin-right: 12px;
 
 }
+#timer
+{
+    font-weight: bold;
+}
+
 
 .nav_bar .dreapta .profil {
     font-family: "Kanit", sans-serif;
@@ -241,7 +253,6 @@ body {
 }
 
 
-
 .activitati ul {
     padding: 0;
     margin: 0;
@@ -268,6 +279,15 @@ body {
     /* justify-content: center; */
 
 }
+.special .icon
+{
+    margin-right: 0;
+}
+.activitati .special:hover
+{
+    background-color: white;
+}
+
 
 .text_search {
     background-color: #6a994e;
@@ -436,6 +456,7 @@ body {
     /* width: 100%; */
     max-width: 70rem;
     margin: auto;
+    padding-top: 20px;
     /* padding: 3em 0em 0.5em 0.5em; */
     /* display: grid; */
 }
@@ -450,8 +471,8 @@ body {
 
 .bordura {
     /* display: none; */
-    margin-top: 30px;
-    margin-block-end: 1rem;
+    /* margin-top: 30px; */
+    margin-block-end: 2rem;
     background-color: aliceblue;
     border-radius: 10px;
     border: 1rem transparent white;
