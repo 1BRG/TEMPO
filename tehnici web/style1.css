@@ -987,7 +987,7 @@ body {
 
 .a123 {
     margin-top: 1rem;
-    border: 5px solid black;
+    border: 3px solid black;
     /* border-top: 10px solid black;
     border */
     border-radius: 70px;
@@ -1009,7 +1009,10 @@ body {
 
 .pdescr {
     /* margin-top: 1rem; */
-    border: 5px solid black;
+    border: 3px solid black;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 3px solid transparent;
     /* padding: 2px; */
     font-family: "Kanit", sans-serif;
     font-weight: bold;
@@ -1018,6 +1021,8 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #588157;
 }
 
