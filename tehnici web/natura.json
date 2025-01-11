@@ -6,7 +6,8 @@
         "locatieText": "Cismigiu Gardens, Bulevardul Regina Elisabeta, București 030167",
         "locatieLink": "https://www.google.com/maps?q=cismigiu",
         "descriere": "Parcul Cișmigiu din București este destinat familiilor, copiilor, pasionaților de sport și celor care doresc relaxare. Oferă alei pentru plimbare, locuri de joacă, bărci pe lac și spații de șah, fiind ideal pentru activități recreative în aer liber și odihnă.",
-        "program": "Luni - Duminica: 00:00-23:59"
+        "program": "Luni - Duminica: 00:00-23:59",
+        "id":"8"
     },
     {
         "titlu": "Parcul Herăstrău",
@@ -15,7 +16,8 @@
         "locatieText": "Şoseaua Pavel D. Kiseleff 32, București ",
         "locatieLink": "https://maps.app.goo.gl/2MhHJznrnE3e9Fbe9",
         "descriere": "Parcul Herăstrău oferă o varietate de activități recreative, plimbări cu barca, și spații verzi întinse.",
-        "program": "Luni - Duminica: 10:00-20:00"
+        "program": "Luni - Duminica: 10:00-20:00",
+        "id":"9"
     },
     {
         "titlu": "Parcul Tineretului",
@@ -24,7 +26,8 @@
         "locatieText": "Bulevardul Tineretului, București ",
         "locatieLink": "https://maps.app.goo.gl/D81dsWF417jfujkS7",
         "descriere": "Parcul Tineretului este o destinație excelentă pentru relaxare și sport. Aici, vizitatorii pot explora alei verzi, locuri de joacă, dar și spații pentru sportivii amatori și profesioniști.",
-        "program": "Luni - Duminica: 00:00-23:59"
+        "program": "Luni - Duminica: 00:00-23:59",
+        "id":"10"
     },
     {
         "titlu": "Grădina Botanică",
@@ -33,7 +36,8 @@
         "locatieText": "Șoseaua Cotroceni 32, București ",
         "locatieLink": "https://maps.app.goo.gl/gvo4g4PCWJVQ4pEn9",
         "descriere": "Grădina Botanică din București este un loc dedicat iubitorilor de plante și natură. Aici se regăsesc specii de plante din toate colțurile lumii, iar atmosfera liniștită este perfectă pentru o plimbare relaxantă.",
-        "program": "Luni - Vineri: 09:00-17:00"
+        "program": "Luni - Vineri: 09:00-17:00",
+        "id":"11"
     },
     {
         "titlu": "Lacul Morii",
@@ -42,7 +46,8 @@
         "locatieText": "Faleza Crangasi, Calea Crângași, București",
         "locatieLink": "https://maps.app.goo.gl/iDX5CWjSVZAqHNns8",
         "descriere": "Lacul Morii este un loc perfect pentru iubitorii de natură, oferind atât oportunități de recreere pe apă, cât și plimbări de-a lungul malului lacului înconjurat de verdeață.",
-        "program": "Luni - Duminica: 06:00-22:00"
+        "program": "Luni - Duminica: 06:00-22:00",
+        "id":"12"
     },
     {
         "titlu": "Parcul Carol",
@@ -51,7 +56,8 @@
         "locatieText": "Bulevardul Mărășești, București",
         "locatieLink": "https://maps.app.goo.gl/8zQidp4A3T2qqPbZ6",
         "descriere": "Parcul Carol este un parc istoric ce combină elemente de natură cu monumente istorice și arhitectură. Locul ideal pentru o plimbare liniștită, dar și pentru activități culturale în aer liber.",
-        "program": "Luni - Duminica: 00:00-23:59"
+        "program": "Luni - Duminica: 00:00-23:59",
+        "id":"13"
     },
     {
         "titlu": "Padurea Baneasa",
@@ -60,6 +66,7 @@
         "locatieText": "București, Sector 1",
         "locatieLink": "https://maps.app.goo.gl/hQoVyqdVGbnKE2id9",
         "descriere": "Pădurea Băneasa oferă un colț de natură mai sălbatic, unde iubitorii de drumeții pot explora peisaje naturale și se pot bucura de aer curat în mijlocul Bucureștiului.",
-        "program": "Luni - Duminica: 06:00-20:00"
+        "program": "Luni - Duminica: 06:00-20:00",
+        "id":"14"
     }
 ]

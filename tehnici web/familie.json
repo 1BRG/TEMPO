@@ -6,7 +6,8 @@
         "locatieText": "Bulevardul Tineretului, București ",
         "locatieLink": "https://maps.app.goo.gl/D81dsWF417jfujkS7",
         "descriere": "Parcul Tineretului din București este ideal pentru familii, având locuri de joacă, piste pentru biciclete și zone de picnic. De asemenea, se poate face o plimbare pe aleile verzi sau pe lângă lac, fiind un loc potrivit pentru relaxare și activități în aer liber.",
-        "program": "Luni - Duminica: 06:00-22:00"
+        "program": "Luni - Duminica: 06:00-22:00",
+        "id":"27"
     },
     {
         "titlu": "Lumea Copiilor Park",
@@ -15,7 +16,8 @@
         "locatieText": "C437+RM, București",
         "locatieLink": "https://maps.app.goo.gl/aFCkTh8V6vjMAhsNA",
         "descriere": "Lumea Copiilor este un parc dedicat exclusiv copiilor, cu locuri de joacă variate și un lac mic unde se pot închiria bărci. Acesta este locul perfect pentru a petrece o zi activă și plăcută alături de cei mici.",
-        "program": "Luni - Duminica: 09:00-20:00"
+        "program": "Luni - Duminica: 09:00-20:00",
+        "id":"28"
     },
     {
         "titlu": "Aqua Magic",
@@ -24,7 +26,8 @@
         "locatieText": "Șoseaua Virtuții 55, București",
         "locatieLink": "https://maps.app.goo.gl/FEYxVTw5PVu3MxeC6",
         "descriere": "Aqua Magic este un parc acvatic ce oferă o mulțime de piscine și tobogane pentru întreaga familie. Este o destinație perfectă pentru o zi de distracție, cu activități pentru copii de toate vârstele, inclusiv piscine speciale pentru cei mici.",
-        "program": "Luni - Duminica: 10:00-18:00 (deschis vara)"
+        "program": "Luni - Duminica: 10:00-18:00 (deschis vara)",
+        "id":"29"
     },
     {
         "titlu": "Grădina Botanică",
@@ -33,7 +36,8 @@
         "locatieText": "Șoseaua Cotroceni 32, București ",
         "locatieLink": "https://maps.app.goo.gl/gvo4g4PCWJVQ4pEn9",
         "descriere": "Grădina Botanică oferă un spațiu verde vast pentru familii, cu o diversitate impresionantă de plante. Copiii pot învăța despre natură în timp ce se distrează explorând aleile sau se relaxează lângă lacuri. Este un loc deosebit pentru o excursie educativă și relaxantă.",
-        "program": "Luni - Duminica: 09:00-18:00"
+        "program": "Luni - Duminica: 09:00-18:00",
+        "id":"30"
     },
     {
         "titlu": "ParkLake Shopping Center",
@@ -42,7 +46,8 @@
         "locatieText": "Str. Liviu Rebreanu 4, București",
         "locatieLink": "https://maps.app.goo.gl/RMdZ4cvA9F6awAj5A",
         "descriere": "ParkLake este un centru comercial unde familiile pot petrece timp împreună, cu o zonă de joacă pentru copii, locații pentru a mânca și filme pentru întreaga familie. Este locul ideal pentru o zi relaxantă, cu activități pentru toate vârstele.",
-        "program": "Luni - Duminica: 10:00-22:00"
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"31"
     },
     {
         "titlu": "Muzeul Iluziilor",
@@ -51,6 +56,7 @@
         "locatieText": "Calea Victoriei 7, București",
         "locatieLink": "https://maps.app.goo.gl/nWPzczFxbZ2SpPyL7",
         "descriere": "Muzeul Iluziilor din București este locul perfect pentru o ieșire de familie, cu expoziții interactive și efecte vizuale care vor pune la încercare percepția și imaginația. Ideal pentru o după-amiază plăcută și plină de distracție.",
-        "program": "Luni - Duminica: 10:00-22:00"
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"32"
     }
 ]

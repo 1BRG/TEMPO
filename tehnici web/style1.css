@@ -279,8 +279,10 @@ body {
     /* justify-content: center; */
 
 }
+
 .special .icon
 {
+    cursor: pointer;
     margin-right: 0;
 }
 .activitati .special:hover
@@ -472,6 +474,7 @@ body {
 .bordura {
     /* display: none; */
     /* margin-top: 30px; */
+    color:black;
     margin-block-end: 2rem;
     background-color: aliceblue;
     border-radius: 10px;
@@ -482,6 +485,7 @@ body {
 
 .box {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     font-family: "Kanit", sans-serif;
 }
@@ -528,12 +532,35 @@ body {
 }
 
 .box .box_program {
+    display: grid;
     border: 2px solid black;
     border-top-right-radius: 10px;
-    height: 100%;
-    border-left-color: aliceblue;
-    border-bottom-color: aliceblue;
+    border-bottom-right-radius: 10px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
     width: 20rem;
+}
+.heart
+{
+    fill:#ff0000 !important;
+}
+.alb
+{
+    fill: transparent;
+}
+.etichete
+{
+    display: grid;
+    align-items: end;
+    justify-content: right;
+    margin-right: 0.5rem;
+    margin-bottom: 0.4rem;
+    /* height: 100%; */
+    bottom:0;
+}
+.etichete .icon
+{
+    cursor: pointer;
 }
 
 .box .box_program .text {
@@ -581,7 +608,9 @@ body {
 }
 
 .content {
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     margin-left: 10px
@@ -633,7 +662,10 @@ body {
 .about .titlu {
     margin-left: 0.3rem;
 }
-
+.imagine
+{
+    padding: 0;
+}
 .lista .box .caseta .imagine {
     height: 10rem;
     width: 14.5rem;
@@ -1000,7 +1032,55 @@ body {
 } */
 
 
-/* MEDIA */
+.popup {
+    display: none;
+}
+
+#popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.negru
+{
+    background-color: black;
+    color: white;
+}
+.popup_text {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.popup_text button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#da {
+    background-color: green;
+    color: white;
+}
+
+button#nu {
+    background-color: red;
+    color: white;
+}
+
 
 @media only screen and (min-width: 900px) {
     .grid_imagini {

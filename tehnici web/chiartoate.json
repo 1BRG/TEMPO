@@ -1,0 +1,319 @@
+[
+    {
+        "titlu": "Muzeul Național de Artă al României",
+        "imagine": "https://booktes.com/thumbs/866/61d832c5ec987_1641558725.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Muzeul_Na%C8%9Bional_de_Art%C4%83_al_Rom%C3%A2niei",
+        "locatieText": "Calea Victoriei 49-53, București ",
+        "locatieLink": "https://maps.app.goo.gl/tN1NfHkXD4tXwENf7",
+        "descriere": "Muzeul Național de Artă al României găzduiește una dintre cele mai importante colecții de artă europeană și românească din țară, fiind un loc ideal pentru iubitorii de artă clasică și modernă.",
+        "program": "Marți - Duminica: 10:00-18:00",
+        "id":"1"
+    },
+    {
+        "titlu": "Palatul Parlamentului",
+        "imagine": "https://grand-hotel-continental-bucuresti.continentalhotels.ro/wp-content/uploads/sites/10/2020/09/16-9-palatul-parlamentului-98219420.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Palatul_Parlamentului",
+        "locatieText": "Strada Izvor 2-4, București ",
+        "locatieLink": "https://www.google.com/maps?q=palatul+parlamentului",
+        "descriere": "Palatul Parlamentului este una dintre cele mai mari clădiri administrative din lume. Vizitatorii pot explora interioarele impresionante ale acestui simbol al puterii politice din România.",
+        "program": "Luni - Vineri: 09:00-17:00",
+        "id":"2"
+    },
+    {
+        "titlu": "Ateneul Român",
+        "imagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ateneo_Rumano%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_73.jpg/1200px-Ateneo_Rumano%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_73.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Ateneul_Rom%C3%A2n",
+        "locatieText": "Strada Benjamin Franklin 1-3, București ",
+        "locatieLink": "https://maps.app.goo.gl/sSvhvAa4HvMragDx6",
+        "descriere": "Ateneul Român este un simbol al culturii românești, un loc renumit pentru concertele sale de muzică clasică și pentru arhitectura sa impresionantă. Este un loc de adunare al iubitorilor de muzică și cultură.",
+        "program": "Luni - Duminica: 10:00-20:00",
+        "id":"3"
+    },
+    {
+        "titlu": "Muzeul Național de Istorie a României",
+        "imagine": "https://www.mnir.ro/wp-content/uploads/2020/08/FOTO_-MNIR-1536x1180-1.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Muzeul_Na%C8%9Bional_de_Istorie_a_Rom%C3%A2niei",
+        "locatieText": "Calea Victoriei 12, București 030026",
+        "locatieLink": "https://maps.app.goo.gl/TahT3ojC8MHZyh1H7",
+        "descriere": "Muzeul Național de Istorie a României oferă o privire detaliată asupra istoriei țării, cu expoziții ce includ artefacte din perioada preistorică până în prezent.",
+        "program": "Luni - Duminica: 10:00-18:00",
+        "id":"4"
+    },
+    {
+        "titlu": "Muzeul de Artă Contemporană",
+        "imagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTGoOSH14X6yKikgYWEdmbP5eHFAjlFSFS3Q&s",
+        "link": "https://ro.wikipedia.org/wiki/Muzeul_de_Art%C4%83_Contemporană",
+        "locatieText": "Strada Izvor 2-4, București 050563",
+        "locatieLink": "https://maps.app.goo.gl/ot8XAopaVr84j1E97a",
+        "descriere": "Muzeul de Artă Contemporană din București este dedicat celor mai noi tendințe în arta contemporană, găzduind lucrări de artă ale unor artiști români și internaționali.",
+        "program": "Luni - Duminica: 10:00-18:00",
+        "id":"5"
+    },
+    {
+        "titlu": "Teatrul Național București",
+        "imagine": "https://lovinromania.com/wp-content/uploads/2023/04/national-theater-bucharest-7.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Teatrul_Na%C8%9Bional_%E2%80%9EIon_Luca_Caragiale%E2%80%9D_din_Bucure%C8%99ti",
+        "locatieText": "Bulevardul Nicolae Bălcescu 2, București",
+        "locatieLink": "https://maps.app.goo.gl/JvteAYQGatQjeRLC6",
+        "descriere": "Teatrul Național București este unul dintre cele mai prestigioase teatre din România, cu o istorie îndelungată și o programare diversificată de spectacole de teatru clasic și contemporan.",
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"6"
+    },
+    {
+        "titlu": "Opera Națională București",
+        "imagine": "https://operanb.ro/wp-content/uploads/2016/09/sala.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Opera_Na%C8%9Bională_din_Bucure%C8%99ti",
+        "locatieText": "Bulevardul Mihail Kogălniceanu 70-72, București",
+        "locatieLink": "https://maps.app.goo.gl/XkBeHncrZ6tBoseu7",
+        "descriere": "Opera Națională București oferă spectacole de operă de renume internațional, fiind un loc unde iubitorii muzicii clasice se pot bucura de producții deosebite.",
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"7"
+    },    {
+        "titlu": "Gradina Cismigiu",
+        "imagine": "gradina_cismigiu.jpg",
+        "link": "s1.html",
+        "locatieText": "Cismigiu Gardens, Bulevardul Regina Elisabeta, București 030167",
+        "locatieLink": "https://www.google.com/maps?q=cismigiu",
+        "descriere": "Parcul Cișmigiu din București este destinat familiilor, copiilor, pasionaților de sport și celor care doresc relaxare. Oferă alei pentru plimbare, locuri de joacă, bărci pe lac și spații de șah, fiind ideal pentru activități recreative în aer liber și odihnă.",
+        "program": "Luni - Duminica: 00:00-23:59",
+        "id":"8"
+    },
+    {
+        "titlu": "Parcul Herăstrău",
+        "imagine": "https://bucurestiulmeudrag.ro/img/photos/s1920/5840451a-019c-426f-9d92-449e592b13d5.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Regele_Mihai_I_al_Rom%C3%A2niei",
+        "locatieText": "Şoseaua Pavel D. Kiseleff 32, București ",
+        "locatieLink": "https://maps.app.goo.gl/2MhHJznrnE3e9Fbe9",
+        "descriere": "Parcul Herăstrău oferă o varietate de activități recreative, plimbări cu barca, și spații verzi întinse.",
+        "program": "Luni - Duminica: 10:00-20:00",
+        "id":"9"
+    },
+    {
+        "titlu": "Parcul Tineretului",
+        "imagine": "https://b365.ro/wp-content/uploads/2022/01/tnrtli.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Tineretului",
+        "locatieText": "Bulevardul Tineretului, București ",
+        "locatieLink": "https://maps.app.goo.gl/D81dsWF417jfujkS7",
+        "descriere": "Parcul Tineretului este o destinație excelentă pentru relaxare și sport. Aici, vizitatorii pot explora alei verzi, locuri de joacă, dar și spații pentru sportivii amatori și profesioniști.",
+        "program": "Luni - Duminica: 00:00-23:59",
+        "id":"10"
+    },
+    {
+        "titlu": "Grădina Botanică",
+        "imagine": "https://www.naturplant.ro/wp-content/uploads/2022/11/Gradina-Botanica-Iasi1-1.jpg",
+        "link": "s4.html",
+        "locatieText": "Șoseaua Cotroceni 32, București ",
+        "locatieLink": "https://maps.app.goo.gl/gvo4g4PCWJVQ4pEn9",
+        "descriere": "Grădina Botanică din București este un loc dedicat iubitorilor de plante și natură. Aici se regăsesc specii de plante din toate colțurile lumii, iar atmosfera liniștită este perfectă pentru o plimbare relaxantă.",
+        "program": "Luni - Vineri: 09:00-17:00",
+        "id":"11"
+    },
+    {
+        "titlu": "Lacul Morii",
+        "imagine": "https://adps6.ro/adp_primariesector6/sites/default/files/2022-10/digul%20lacul%20morii%20dupa%20%20%281%29.png",
+        "link": "https://ro.wikipedia.org/wiki/Lacul_Morii",
+        "locatieText": "Faleza Crangasi, Calea Crângași, București",
+        "locatieLink": "https://maps.app.goo.gl/iDX5CWjSVZAqHNns8",
+        "descriere": "Lacul Morii este un loc perfect pentru iubitorii de natură, oferind atât oportunități de recreere pe apă, cât și plimbări de-a lungul malului lacului înconjurat de verdeață.",
+        "program": "Luni - Duminica: 06:00-22:00",
+        "id":"12"
+    },
+    {
+        "titlu": "Parcul Carol",
+        "imagine": "https://www.descopera.ro/wp-content/uploads/2021/07/parcul-carol-shutter_Descopera-3-scaled.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Carol_I",
+        "locatieText": "Bulevardul Mărășești, București",
+        "locatieLink": "https://maps.app.goo.gl/8zQidp4A3T2qqPbZ6",
+        "descriere": "Parcul Carol este un parc istoric ce combină elemente de natură cu monumente istorice și arhitectură. Locul ideal pentru o plimbare liniștită, dar și pentru activități culturale în aer liber.",
+        "program": "Luni - Duminica: 00:00-23:59",
+        "id":"13"
+    },
+    {
+        "titlu": "Padurea Baneasa",
+        "imagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQii2OtZTrv3dST1iVOit1zRpwb_GVJ8AhOxw&s",
+        "link": "https://en.wikipedia.org/wiki/B%C4%83neasa_Forest",
+        "locatieText": "București, Sector 1",
+        "locatieLink": "https://maps.app.goo.gl/hQoVyqdVGbnKE2id9",
+        "descriere": "Pădurea Băneasa oferă un colț de natură mai sălbatic, unde iubitorii de drumeții pot explora peisaje naturale și se pot bucura de aer curat în mijlocul Bucureștiului.",
+        "program": "Luni - Duminica: 06:00-20:00",
+        "id":"14"
+    },    {
+        "titlu": "Stay Fit Gym",
+        "imagine": "https://stayfit.ro/wp-content/uploads/2024/01/stay-fit-gym-bucuresti-teiul-doamnei-i8.webp",
+        "link": "https://stayfit.ro/bucuresti/teiul-doamnei/",
+        "locatieText": "Str. Teiul Doamnei 35A, București",
+        "locatieLink": "https://maps.app.goo.gl/D88MndjniGu3NAsB7",
+        "descriere": "Stay Fit Gym este o sală modernă ce oferă echipamente de fitness, spații pentru antrenamente și clase de grup pentru pasionații de sport.",
+        "program": "Luni - Vineri: 07:00-22:00, Sâmbătă - Duminică: 08:00-20:00",
+        "id":"15"
+    },
+    {
+        "titlu": "Magic Arena",
+        "imagine": "https://www.magic-arena.ro/galerii/foto/mari/14.jpg",
+        "link": "https://magic-arena.ro/",
+        "locatieText": "Splaiul Independenței 336, București ",
+        "locatieLink": "https://maps.app.goo.gl/wDzgS5TD8iMUSuuH9",
+        "descriere": "Magic Arena oferă terenuri de fotbal acoperite, cu gazon sintetic, ideale pentru competiții sau antrenamente în orice sezon.",
+        "program": "Luni - Duminica: 09:00-22:00",
+        "id":"16"
+    },
+    {
+        "titlu": "Clubul de Dans",
+        "imagine": "https://lh3.googleusercontent.com/proxy/TBXhAcIFQsxHaXEC-yK7LCYDzFlEHnDi1Sh2sqd6ApCO7XlWffGZcsAcxYSD8dGKv1-DLevfgyDIWGGgnilHQFiY1zZgnPkAABe6RLaM42D9SLmXyNwENgzDQI5MVpjhmxLkG3c",
+        "link": "http://www.mihaipetre.ro/",
+        "locatieText": "Splaiul Independenței 319, București",
+        "locatieLink": "https://maps.app.goo.gl/3Lbzn9NyjaS8u8c86",
+        "descriere": "Clubul de Dans Sportiv Mihai Petre oferă cursuri de dans pentru toate vârstele, fiind ideal pentru cei care doresc să îmbine sportul cu arta.",
+        "program": "Luni - Vineri: 10:00-20:00, Sâmbătă: 10:00-14:00",
+        "id":"17"
+    },
+    {
+        "titlu": "Complexul Sportiv Floreasca",
+        "imagine": "https://lh5.googleusercontent.com/p/AF1QipOyztcfvpvfXg7VW9s0W4eRVUssdXFjxqZom-pb=w471-h240-k-no",
+        "link": "https://www.google.com/maps/search/Complexul+Sportiv+Floreasca%2C+Bucure%C8%99ti%2C+Rom%C3%A2nia",
+        "locatieText": "Șoseaua Floreasca, București",
+        "locatieLink": "https://maps.app.goo.gl/complex_floreasca",
+        "descriere": "Complexul Sportiv Floreasca oferă terenuri de tenis, piscine și facilități pentru diverse activități sportive, fiind o alegere populară pentru sportivi.",
+        "program": "Luni - Duminica: 08:00-22:00",
+        "id":"18"
+    },
+    {
+        "titlu": "Parcul Herăstrău",
+        "imagine": "https://bucurestiulmeudrag.ro/img/photos/s1920/5840451a-019c-426f-9d92-449e592b13d5.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Regele_Mihai_I_al_Rom%C3%A2niei",
+        "locatieText": "Şoseaua Pavel D. Kiseleff 32, București ",
+        "locatieLink": "https://maps.app.goo.gl/2MhHJznrnE3e9Fbe9",
+        "descriere": "Parcul Herăstrău oferă o varietate de activități recreative, plimbări cu barca, și spații verzi întinse.",
+        "program": "Luni - Duminica: 10:00-20:00",
+        "id":"19"
+    },
+    {
+        "titlu": "Parcul Tineretului",
+        "imagine": "https://b365.ro/wp-content/uploads/2022/01/tnrtli.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Tineretului",
+        "locatieText": "Bulevardul Tineretului, București ",
+        "locatieLink": "https://maps.app.goo.gl/D81dsWF417jfujkS7",
+        "descriere": "Parcul Tineretului este o destinație excelentă pentru relaxare și sport. Aici, vizitatorii pot explora alei verzi, locuri de joacă, dar și spații pentru sportivii amatori și profesioniști.",
+        "program": "Luni - Duminica: 00:00-23:59",
+        "id":"20"
+    },    {
+        "titlu": "Muzeul Iluziilor",
+        "imagine": "https://www.aficotroceni.ro/wp-content/uploads/2017/12/Museum_of_senses_224.jpg",
+        "link": "https://www.museumofsenses.ro/",
+        "locatieText": "Calea Victoriei 7, București",
+        "locatieLink": "https://maps.app.goo.gl/nWPzczFxbZ2SpPyL7",
+        "descriere": "Muzeul Iluziilor din București este locul perfect pentru o ieșire de familie, cu expoziții interactive și efecte vizuale care vor pune la încercare percepția și imaginația. Ideal pentru o după-amiază plăcută și plină de distracție.",
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"21"
+    },
+    {
+        "titlu": "Concert Johann Strauss II",
+        "imagine": "https://tse2.mm.bing.net/th?id=OIP.N8uznGuIPXhVhMgoBseSTwHHFB&pid=Api",
+        "link": "https://www.eventim.ro/ro/bilete/festivalul-johann-strauss-bucuresti-ateneul-roman-554921/event.html",
+        "locatieText": "Ateneul Român, București",
+        "locatieLink": "https://goo.gl/maps/kGVHmfqA1FP7ex4v5",
+        "descriere": "Pe 11 ianuarie 2025, la Ateneul Român, va avea loc un concert special dedicat celor 200 de ani de la nașterea compozitorului Johann Strauss II, parte din Festivalul Johann Strauss. Evenimentul va oferi o seară de muzică clasică, fiind un adevărat festin pentru iubitorii genului.",
+        "program": "Vineri, 11 ianuarie 2025: 19:00",
+        "id":"22"
+    },
+    {
+        "titlu": "Duke Ellington Orchestra",
+        "imagine": "https://tse1.mm.bing.net/th?id=OIP.BlztHGf9C7Q8UAQhfbg4rgAAAA&pid=Api",
+        "link": "https://m.iabilet.ro/bilete-the-duke-ellington-orchestra-101418/",
+        "locatieText": "Sala Palatului, București",
+        "locatieLink": "https://goo.gl/maps/TdfNrkQNCYgXsYsQ7",
+        "descriere": "Pe 20 ianuarie 2025, Sala Palatului din București va găzdui un concert aniversar dedicat celor 100 de ani de la înființarea Duke Ellington Orchestra, fiind o oportunitate de a asculta unele dintre cele mai mari hituri ale muzicii jazz.",
+        "program": "Luni, 20 ianuarie 2025: 20:00",
+        "id":"23"
+    },
+    {
+        "titlu": "Stand-up comedy",
+        "imagine": "https://tse2.mm.bing.net/th?id=OIP.ck7949xTP9aXkn3S4jtToQHaKe&pid=Api",
+        "link": "https://bilete.thefool.ro/bilete-the-fool-stand-up-comedy-cu-mincu-frinculescu-bogdan-malaele-si-dan-birtas-106050/",
+        "locatieText": "The Fool, București",
+        "locatieLink": "https://goo.gl/maps/KfxW4oNYkM2DRsm88",
+        "descriere": "Pe 10 ianuarie 2025, The Fool din București va găzdui un show de stand-up comedy cu patru comedieni de renume Mincu, Frînculescu, Bogdan Mălăele și Dan Birtaș. Dacă ești în căutare de râs continuu și distracție, acest eveniment este perfect pentru tine.",
+        "program": "Vineri, 10 ianuarie 2025: 21:00",
+        "id":"24"
+    },
+    {
+        "titlu": "Stand-up comedy",
+        "imagine": "https://tse1.mm.bing.net/th?id=OIP.WTBfSshup1zfSPGJsfLwYgHaEo&pid=Api",
+        "link": "https://iphone-v1.iabilet.ro/bilete-stand-up-comedy-cu-vio-costel-raul-gheba-bogzi-la-club-99-105732/",
+        "locatieText": "Club 99, București",
+        "locatieLink": "https://goo.gl/maps/F2bFrx6J6D1gU2Kv7",
+        "descriere": "Pe 11 ianuarie 2025, Club 99 din București va organiza un spectacol de stand-up comedy cu patru dintre cei mai apreciați comedieni ai momentului cu Vio, Costel, Mocanu și Banciu. Va fi o seară plină de umor și situații amuzante, ideală pentru o ieșire cu prietenii.",
+        "program": "Sâmbătă, 11 ianuarie 2025: 20:00",
+        "id":"25"
+    },
+    {
+        "titlu": "Spectacolul 'Risipire'",
+        "imagine": "https://tse1.mm.bing.net/th?id=OIP.LPjwIe4poesBFV-5jQ6p3gHaFj&pid=Api",
+        "link": "https://www.tnb.ro/ro/risipire",
+        "locatieText": "Teatrul Coquette, București",
+        "locatieLink": "https://goo.gl/maps/MqHvv6tT9bKbbZ3j8",
+        "descriere": "'Risipire' este un spectacol de teatru care va avea loc pe 12 ianuarie 2025 la Teatrul Coquette din București. Este o piesă ce explorează amintirile și iubirea, fiind un spectacol emoționant, dar și plin de momente de reflecție.",
+        "program": "Duminică, 12 ianuarie 2025: 19:30",
+        "id":"26"
+    },    {
+        "titlu": "Parcul Tineretului",
+        "imagine": "https://b365.ro/wp-content/uploads/2022/01/tnrtli.jpg",
+        "link": "https://ro.wikipedia.org/wiki/Parcul_Tineretului",
+        "locatieText": "Bulevardul Tineretului, București ",
+        "locatieLink": "https://maps.app.goo.gl/D81dsWF417jfujkS7",
+        "descriere": "Parcul Tineretului din București este ideal pentru familii, având locuri de joacă, piste pentru biciclete și zone de picnic. De asemenea, se poate face o plimbare pe aleile verzi sau pe lângă lac, fiind un loc potrivit pentru relaxare și activități în aer liber.",
+        "program": "Luni - Duminica: 06:00-22:00",
+        "id":"27"
+    },
+    {
+        "titlu": "Lumea Copiilor Park",
+        "imagine": "https://www.clubulcopiilor.ro/wp-content/uploads/2023/02/Parcul_Lumea_Copiilor_2-jpeg.webp",
+        "link": "https://www.clubulcopiilor.ro/loc/parcul-lumea-copiilor/",
+        "locatieText": "C437+RM, București",
+        "locatieLink": "https://maps.app.goo.gl/aFCkTh8V6vjMAhsNA",
+        "descriere": "Lumea Copiilor este un parc dedicat exclusiv copiilor, cu locuri de joacă variate și un lac mic unde se pot închiria bărci. Acesta este locul perfect pentru a petrece o zi activă și plăcută alături de cei mici.",
+        "program": "Luni - Duminica: 09:00-20:00",
+        "id":"28"
+    },
+    {
+        "titlu": "Aqua Magic",
+        "imagine": "https://waterpark.ro/wp-content/uploads/2023/07/Waterpark-24.06.2023-mici-139.jpg",
+        "link": "https://waterpark.ro/",
+        "locatieText": "Șoseaua Virtuții 55, București",
+        "locatieLink": "https://maps.app.goo.gl/FEYxVTw5PVu3MxeC6",
+        "descriere": "Aqua Magic este un parc acvatic ce oferă o mulțime de piscine și tobogane pentru întreaga familie. Este o destinație perfectă pentru o zi de distracție, cu activități pentru copii de toate vârstele, inclusiv piscine speciale pentru cei mici.",
+        "program": "Luni - Duminica: 10:00-18:00 (deschis vara)",
+        "id":"29"
+    },
+    {
+        "titlu": "Grădina Botanică",
+        "imagine": "https://www.naturplant.ro/wp-content/uploads/2022/11/Gradina-Botanica-Iasi1-1.jpg",
+        "link": "s4.html",
+        "locatieText": "Șoseaua Cotroceni 32, București ",
+        "locatieLink": "https://maps.app.goo.gl/gvo4g4PCWJVQ4pEn9",
+        "descriere": "Grădina Botanică oferă un spațiu verde vast pentru familii, cu o diversitate impresionantă de plante. Copiii pot învăța despre natură în timp ce se distrează explorând aleile sau se relaxează lângă lacuri. Este un loc deosebit pentru o excursie educativă și relaxantă.",
+        "program": "Luni - Duminica: 09:00-18:00",
+        "id":"30"
+    },
+    {
+        "titlu": "ParkLake Shopping Center",
+        "imagine": "https://zilesinopti.ro/wp-content/uploads/2021/08/41397909059d0a5af94b4f5.88872181.jpg",
+        "link": "https://www.parklake.ro/",
+        "locatieText": "Str. Liviu Rebreanu 4, București",
+        "locatieLink": "https://maps.app.goo.gl/RMdZ4cvA9F6awAj5A",
+        "descriere": "ParkLake este un centru comercial unde familiile pot petrece timp împreună, cu o zonă de joacă pentru copii, locații pentru a mânca și filme pentru întreaga familie. Este locul ideal pentru o zi relaxantă, cu activități pentru toate vârstele.",
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"31"
+    },
+    {
+        "titlu": "Muzeul Iluziilor",
+        "imagine": "https://www.aficotroceni.ro/wp-content/uploads/2017/12/Museum_of_senses_224.jpg",
+        "link": "https://www.museumofsenses.ro/",
+        "locatieText": "Calea Victoriei 7, București",
+        "locatieLink": "https://maps.app.goo.gl/nWPzczFxbZ2SpPyL7",
+        "descriere": "Muzeul Iluziilor din București este locul perfect pentru o ieșire de familie, cu expoziții interactive și efecte vizuale care vor pune la încercare percepția și imaginația. Ideal pentru o după-amiază plăcută și plină de distracție.",
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"32"
+    }
+]
+ 

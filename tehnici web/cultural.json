@@ -6,7 +6,8 @@
         "locatieText": "Calea Victoriei 49-53, București ",
         "locatieLink": "https://maps.app.goo.gl/tN1NfHkXD4tXwENf7",
         "descriere": "Muzeul Național de Artă al României găzduiește una dintre cele mai importante colecții de artă europeană și românească din țară, fiind un loc ideal pentru iubitorii de artă clasică și modernă.",
-        "program": "Marți - Duminica: 10:00-18:00"
+        "program": "Marți - Duminica: 10:00-18:00",
+        "id":"1"
     },
     {
         "titlu": "Palatul Parlamentului",
@@ -15,7 +16,8 @@
         "locatieText": "Strada Izvor 2-4, București ",
         "locatieLink": "https://www.google.com/maps?q=palatul+parlamentului",
         "descriere": "Palatul Parlamentului este una dintre cele mai mari clădiri administrative din lume. Vizitatorii pot explora interioarele impresionante ale acestui simbol al puterii politice din România.",
-        "program": "Luni - Vineri: 09:00-17:00"
+        "program": "Luni - Vineri: 09:00-17:00",
+        "id":"2"
     },
     {
         "titlu": "Ateneul Român",
@@ -24,7 +26,8 @@
         "locatieText": "Strada Benjamin Franklin 1-3, București ",
         "locatieLink": "https://maps.app.goo.gl/sSvhvAa4HvMragDx6",
         "descriere": "Ateneul Român este un simbol al culturii românești, un loc renumit pentru concertele sale de muzică clasică și pentru arhitectura sa impresionantă. Este un loc de adunare al iubitorilor de muzică și cultură.",
-        "program": "Luni - Duminica: 10:00-20:00"
+        "program": "Luni - Duminica: 10:00-20:00",
+        "id":"3"
     },
     {
         "titlu": "Muzeul Național de Istorie a României",
@@ -33,7 +36,8 @@
         "locatieText": "Calea Victoriei 12, București 030026",
         "locatieLink": "https://maps.app.goo.gl/TahT3ojC8MHZyh1H7",
         "descriere": "Muzeul Național de Istorie a României oferă o privire detaliată asupra istoriei țării, cu expoziții ce includ artefacte din perioada preistorică până în prezent.",
-        "program": "Luni - Duminica: 10:00-18:00"
+        "program": "Luni - Duminica: 10:00-18:00",
+        "id":"4"
     },
     {
         "titlu": "Muzeul de Artă Contemporană",
@@ -42,7 +46,8 @@
         "locatieText": "Strada Izvor 2-4, București 050563",
         "locatieLink": "https://maps.app.goo.gl/ot8XAopaVr84j1E97a",
         "descriere": "Muzeul de Artă Contemporană din București este dedicat celor mai noi tendințe în arta contemporană, găzduind lucrări de artă ale unor artiști români și internaționali.",
-        "program": "Luni - Duminica: 10:00-18:00"
+        "program": "Luni - Duminica: 10:00-18:00",
+        "id":"5"
     },
     {
         "titlu": "Teatrul Național București",
@@ -51,7 +56,8 @@
         "locatieText": "Bulevardul Nicolae Bălcescu 2, București",
         "locatieLink": "https://maps.app.goo.gl/JvteAYQGatQjeRLC6",
         "descriere": "Teatrul Național București este unul dintre cele mai prestigioase teatre din România, cu o istorie îndelungată și o programare diversificată de spectacole de teatru clasic și contemporan.",
-        "program": "Luni - Duminica: 10:00-22:00"
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"6"
     },
     {
         "titlu": "Opera Națională București",
@@ -60,7 +66,8 @@
         "locatieText": "Bulevardul Mihail Kogălniceanu 70-72, București",
         "locatieLink": "https://maps.app.goo.gl/XkBeHncrZ6tBoseu7",
         "descriere": "Opera Națională București oferă spectacole de operă de renume internațional, fiind un loc unde iubitorii muzicii clasice se pot bucura de producții deosebite.",
-        "program": "Luni - Duminica: 10:00-22:00"
+        "program": "Luni - Duminica: 10:00-22:00",
+        "id":"7"
     }
 ]
  

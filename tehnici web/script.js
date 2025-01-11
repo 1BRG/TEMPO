@@ -1,63 +1,5 @@
-function verificaCuvant(text, cuvant) {
-    return text.includes(cuvant) ? 1 : 0;
-}
-function verificaText(v, text) {
-    var ok = 0;
-    for(let i = 0; i < v.length; i ++)
-        ok = ok | verificaCuvant(text, v[i]);
-    return ok;
-}
-function deschide(site){
-    window.open(site)
-    return;
-}
-window.onload = function () {
-    var form = document.getElementById("formular");
-    var cultural = ["cultural", "muzeu", "galerie", "arta", "statuie", "biserica", "arhitectura", "istorie", "teatru", "literatura", "expozitie"];
-    var natura = ["copaci", "natura", "parc", "rau", "flori", "fauna", "ecologie", "aer"]
-    var sport = ["fotbal", "tenis", "alergat", "bicicleta", "fitness", "yoga", "inot"]
-    var evenimente = ["concert", "festival", "petrecere", "gală", "workshop", "conferință", "spectacol", "stand-up", "muzica", "muzical", "eveniment"];
-    var familie = ["copii", "părinți", "acasă", "masă", "bunici", "vacanță", "căldură", "relaxant", "sigur"];
-    form.onsubmit = function (event) {
-        var v = document.getElementById("redirect").value;
-        var ok = 0
-        if(v.length == 0){
-            alert("Formularul este gol!"); return;}
-        ok = verificaText(cultural, v);
-        
-        if(ok == 1){
-        deschide("cultural.html");
-        return;
-        }
 
-        ok = verificaText(natura, v);
-        if(ok == 1){
-        deschide("natura.html");
-        return;
-        }
-
-        ok = verificaText(sport, v);
-        if(ok == 1){
-        deschide("sport.html");
-        return;
-        }
-
-        ok = verificaText(evenimente, v);
-        if(ok == 1){
-        deschide("evenimente.html");
-        return;
-        }
-
-        ok = verificaText(familie, v);
-        if(ok == 1){
-        deschide("familie.html");
-        return;
-        }
-        
-        deschide("eroare.html");
-        return;
-    }
-    nume = "toate.json";
+function toate(nume) {
     fetch(nume)
         .then(response => {
             return response.json();
@@ -104,4 +46,136 @@ window.onload = function () {
                 container.innerHTML += box;
             });
         })
+}
+function verificaCuvant(text, cuvant) {
+    return text.includes(cuvant) ? 1 : 0;
+}
+function verificaText(v, text) {
+    var ok = 0;
+    for (let i = 0; i < v.length; i++)
+        ok = ok | verificaCuvant(text, v[i]);
+    return ok;
+}
+function deschide(site) {
+    window.open(site)
+    return;
+}
+function culoare() {
+    var v = '0123456789ABCDEF';
+    let nume = '#';
+    for (let i = 0; i < 6; i++) {
+        nume += v[Math.floor(Math.random() * 16)];
+    }
+    return nume;
+}
+function add(event) {
+    var id = event.currentTarget.id;
+    var v = localStorage.getItem("vector");
+    document.getElementById(id).classList.toggle('heart');
+    if (v) {
+        var aidi = v.trim().split(" ");
+        if (aidi.includes(id.toString())) {
+            aidi = aidi.filter(item => item !== id.toString());
+        }
+        else {
+            aidi.push(id.toString());
+        }
+        v = aidi.join(" ");
+        localStorage.setItem("vector", v);
+    }
+    else {
+        v = id.toString();
+        localStorage.setItem("vector", v);
+    }
+
+
+}
+window.onload = function () {
+    var form = document.getElementById("formular");
+    var cultural = ["cultural", "muzeu", "galerie", "arta", "statuie", "biserica", "arhitectura", "istorie", "teatru", "literatura", "expozitie"];
+    var natura = ["copaci", "natura", "parc", "rau", "flori", "fauna", "ecologie", "aer"]
+    var sport = ["fotbal", "tenis", "alergat", "bicicleta", "fitness", "yoga", "inot"]
+    var evenimente = ["concert", "festival", "petrecere", "gală", "workshop", "conferință", "spectacol", "stand-up", "muzica", "muzical", "eveniment"];
+    var familie = ["copii", "părinți", "acasă", "masă", "bunici", "vacanță", "căldură", "relaxant", "sigur"];
+    form.onsubmit = function (event) {
+        var v = document.getElementById("redirect").value;
+        var ok = 0
+        if (v.length == 0) {
+            alert("Formularul este gol!"); return;
+        }
+        ok = verificaText(cultural, v);
+
+        if (ok == 1) {
+            deschide("cultural.html");
+            return;
+        }
+
+        ok = verificaText(natura, v);
+        if (ok == 1) {
+            deschide("natura.html");
+            return;
+        }
+
+        ok = verificaText(sport, v);
+        if (ok == 1) {
+            deschide("sport.html");
+            return;
+        }
+
+        ok = verificaText(evenimente, v);
+        if (ok == 1) {
+            deschide("evenimente.html");
+            return;
+        }
+
+        ok = verificaText(familie, v);
+        if (ok == 1) {
+            deschide("familie.html");
+            return;
+        }
+
+        deschide("eroare.html");
+        return;
+    }
+    nume = "toate.json";
+    toate(nume);
+    var special = document.getElementsByClassName("special")[0];
+    special.onclick = function () {
+        document.getElementById("popup").style.display = "flex";
+        var da = document.getElementById("da");
+        var nu = document.getElementById("nu");
+        da.onclick = function () {
+            var color = culoare();
+            document.getElementsByClassName("head1")[0].style.backgroundColor = color;
+            document.getElementsByClassName("text_search")[0].style.backgroundColor = color;
+
+            document.getElementById("popup").style.display = "none";
+            return;
+        }
+        nu.onclick = function () {
+            document.getElementById("popup").style.display = "none";
+            return;
+        }
+    }
+    // document.getElementsByClassName("p2")[0].classList.remove("part2");
+    document.body.onkeydown = function (event) {
+        const tag = event.target.tagName.toLowerCase();
+
+        if (tag === 'input')
+            return;
+        var t = event;
+        var t = event.key;
+        if (t == "s") {
+            document.getElementsByClassName("p2")[0].classList.toggle('negru');
+        }
+        else return;
+    }
+    var v = localStorage.getItem("vector");
+    var id = "8";
+    if (v) {
+        var aidi = v.trim().split(" ");
+        if (aidi.includes(id)) {
+            document.getElementById("8").classList.toggle("heart");
+        }
+    }
 }

@@ -98,67 +98,28 @@ function recomandari(nume) {
                     </div>
                 </div>
             `;
-                container.innerHTML += box;
+                var v = localStorage.getItem("vector");
+                var id = item.id;
+                if (v) {
+                    var aidi = v.trim().split(" ");
+                    if (aidi.includes(id)) {
+                        container.innerHTML += box;
+                    }
+                }
             });
         })
 }
-function selectie(nume) {
-    fetch(nume)
-        .then(response => {
-            return response.json();
-        })
-        .then(data => {
 
-            const container = document.getElementById("poate_iti_place");
-            console.log(data);
-            data.forEach(locatie => {
-
-                const box = `
-                <li class = "box">
-                    <div>
-                        <div class="caseta">
-                            <div>
-                                <a href="${locatie.link}" class="linc">
-                                    <img class="imagine" alt="imagine" src="${locatie.imagine}">
-                                </a>
-                            </div>
-                            <div class="about">
-                                <h3 class="titlu"><a href="${locatie.link}" class="linc">${locatie.titlu}</a></h3>
-                                <div class="locatie">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon"
-                                        xml:space="preserve" fill="#000000" stroke-width="10">
-                                        <g stroke-width="0"></g>
-                                        <g stroke-linecap="round" stroke-linejoin="round"></g>
-                                        <g>
-                                            <g>
-                                                <path fill="#F76D57" d="M32,52.789l-12-18C18.5,32,16,28.031,16,24c0-8.836,7.164-16,16-16s16,7.164,16,16 c0,4.031-2.055,8-4,10.789L32,52.789z"></path>
-                                                <g>
-                                                    <path fill="#394240" d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289 l16,24C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289 C54.289,34.008,56,29.219,56,24C56,10.746,45.254,0,32,0z M44,34.789l-12,18l-12-18C18.5,32,16,28.031,16,24 c0-8.836,7.164-16,16-16s16,7.164,16,16C48,28.031,45.945,32,44,34.789z">
-                                                    </path>
-                                                    <circle fill="#394240" cx="32" cy="24" r="8"></circle>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                    <a class="linc1" href="${locatie.locatieLink}">${locatie.locatieText}</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <li>
-            `;
-                container.innerHTML += box;
-            });
-        })
-}
 function add(event) {
     var id = event.currentTarget.id;
-    var v = localStorage.getItem("vector");
     document.getElementById(id).classList.toggle('heart');
+    var v = localStorage.getItem("vector");
     if (v) {
         var aidi = v.trim().split(" ");
         if (aidi.includes(id.toString())) {
             aidi = aidi.filter(item => item !== id.toString());
+            document.getElementsByClassName(id)[0].parentNode.removeChild(document.getElementsByClassName(id)[0]);
+
         }
         else {
             aidi.push(id.toString());
@@ -170,16 +131,12 @@ function add(event) {
         v = id.toString();
         localStorage.setItem("vector", v);
     }
- 
 
 }
-
 window.onload = function () {
-    nume = sitenume();
-    nume += ".json";
+    var nume = "chiartoate.json";
     recomandari(nume);
-    nume = "toate.json";
-    selectie(nume);
+
     var part2 = document.getElementsByClassName("part2")[0];
     document.body.onkeyup = function (event) {
         var t = event.key;
@@ -194,17 +151,13 @@ window.onload = function () {
             part2.style.backgroundColor = "lightgoldenrodyellow", document.getElementById("selectie").style.color = "black", document.getElementById("timer").style.color = "black";
         else return;
     }
-    // var del = document.getElementsByClassName("special")[0];
-    // del.onclick = function () {
-    //     var unde = document.getElementsByClassName("bordura")[0];
-    //     if (unde)
-    //         unde.parentNode.removeChild(unde);
-    //     else window.open("index.html");
+    var del = document.getElementsByClassName("special")[0];
+    del.onclick = function () {
+        var unde = document.getElementsByClassName("bordura")[0];
+        if (unde)
+            unde.parentNode.removeChild(unde);
+        else window.open("index.html");
 
-    // }
-    let count = 0;
-    setInterval(function () {
-        count++;
-        document.getElementById("timer").textContent = `Numar de secunde petrecute pe aceasta pagina: ${count}`;
-    }, 1000);
+    }
+
 }
