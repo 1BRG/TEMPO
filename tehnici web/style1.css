@@ -173,6 +173,7 @@ body {
 }
 
 .a1234 {
+    height: 100%;
     color: black;
     font-weight: bold;
 }
@@ -911,7 +912,7 @@ body {
     }
 
     60% {
-        width: 5rem;
+        width: 7rem;
 
     }
 
@@ -987,43 +988,43 @@ body {
 
 .a123 {
     margin-top: 1rem;
-    border: 3px solid black;
+    border: 2px solid #c4c3d9;
     /* border-top: 10px solid black;
     border */
-    border-radius: 70px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #a3b18a;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: aliceblue;
     /* padding: 5px; */
 }
 
 .despre1234 .txt {
-
     font-family: "Kanit", sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
     margin: auto;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
 }
 
 .pdescr {
     /* margin-top: 1rem; */
-    border: 3px solid black;
+    border: 2px solid #c4c3d9;
     border-left: transparent;
     border-right: transparent;
     border-bottom: 3px solid transparent;
     /* padding: 2px; */
     font-family: "Kanit", sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1rem;
-    color: white;
+    color: black;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background-color: #588157;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  */
+    background-color: rgb(233, 243, 252);
 }
 
 /* .tr {
@@ -1086,6 +1087,21 @@ button#nu {
     color: white;
 }
 
+
+@media only screen and (min-width: 1130px) {
+    #mobil
+    {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1130px) {
+    #pc
+    {
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 900px) {
     .grid_imagini {
